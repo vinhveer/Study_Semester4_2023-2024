@@ -17,10 +17,7 @@ Tải về thư mục [Graphics Header Files](ComputerGraphics/Install_Graphics.
 
 - Copy file `libbgi.a`, dán vào thư mục `TDM-GCC-32\lib` như video
 
-<video controls>
-  <source src="Install_Graphics.h\img\20240120_133211.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/vinhveer/Study_Semester4_2023-2024/blob/631eb65ce6f85370f6110283266f2e6d76b89617/ComputerGraphics/Install_Graphics.h/img/20240120_132225.mp4
 
 ## Bước 3. Config VSCode
 
