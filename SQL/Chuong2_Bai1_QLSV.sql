@@ -1,0 +1,140 @@
+﻿-- 1.1. Tạo CSDL QLSV
+CREATE DATABASE QLSV;
+
+-- 1.2. Tạo bảng
+
+USE QLSV;
+
+CREATE TABLE KHOA
+(
+	MaKhoa varchar(10) NOT NULL,
+	TenKhoa nvarchar(50) NOT NULL,
+	SL_CBGD smallint NOT NULL
+);
+
+CREATE TABLE SINHVIEN
+(
+	MSSV varchar(5) NOT NULL,
+	Ten nvarchar(50) NOT NULL,
+	GioiTinh varchar(5) NOT NULL,
+	DiaChi nvarchar(100) NOT NULL,
+	DienThoai varchar(20),
+	MaKhoa varchar(10)
+);
+
+CREATE TABLE GIAOVIEN
+(
+	MaGV varchar(5) NOT NULL,
+	TenGV nvarchar(50) NOT NULL,
+	MaKhoa varchar(10)
+);
+
+CREATE TABLE MONHOC
+(
+	MaMH varchar(5) NOT NULL,
+	TenMH nvarchar(50) NOT NULL,
+	SoTC smallint
+);
+
+CREATE TABLE GIANGDAY
+(
+	MaKhoaHoc varchar(5) NOT NULL,
+	MaGV varchar(5),
+	MaMH varchar(5),
+	HocKy smallint NOT NULL,
+	Nam int NOT NULL
+);
+
+CREATE TABLE KETQUA
+(
+	MaSV varchar(5) NOT NULL,
+	MaKhoaHoc varchar(5) NOT NULL,
+	Diem Decimal(3,1) NOT NULL
+);
+
+-- 1.3. Cập nhật Primary Key và Foreign Key
+-- a. Tạo khóa chính
+ALTER TABLE GIAOVIEN 
+ADD CONSTRAINT giaovien_pk PRIMARY KEY (MaGV);
+
+ALTER TABLE KHOA
+ADD CONSTRAINT khoa_pk PRIMARY KEY (MaKhoa);
+
+ALTER TABLE GIANGDAY
+ADD CONSTRAINT giangday_pk PRIMARY KEY (MaKhoaHoc);
+
+ALTER TABLE KETQUA
+ADD CONSTRAINT ketqua_pk PRIMARY KEY (MaSV, MaKhoaHoc);
+
+ALTER TABLE MONHOC
+ADD CONSTRAINT monhoc_pk PRIMARY KEY (MaMH);
+
+ALTER TABLE SINHVIEN
+ADD CONSTRAINT sinhvien_pk PRIMARY KEY (MSSV);
+
+-- b. Tạo khóa ngoại
+
+ALTER TABLE GIAOVIEN
+ADD CONSTRAINT giaovien_makhoa_fk FOREIGN KEY (MaKhoa) REFERENCES KHOA (MaKhoa);
+
+ALTER TABLE GIANGDAY
+ADD CONSTRAINT giangday_magv_fk FOREIGN KEY (MaGV) REFERENCES GIAOVIEN (MaGV),
+CONSTRAINT giangday_mamh_fk FOREIGN KEY (MaMH) REFERENCES MONHOC(MaMH);
+
+ALTER TABLE KETQUA
+ADD CONSTRAINT ketqua_masv_fk FOREIGN KEY (MaSV) REFERENCES SINHVIEN (MSSV),
+CONSTRAINT ketqua_makhoahoc_fk FOREIGN KEY (MaKhoaHoc) REFERENCES GIANGDAY (MaKhoaHoc);
+
+ALTER TABLE SINHVIEN
+ADD CONSTRAINT sinhvien_makhoa_fk FOREIGN KEY (MaKhoa) REFERENCES KHOA (MaKhoa);
+
+-- 1.4. Thêm dữ liệu
+
+INSERT INTO KHOA
+VALUES
+	('CNTT', N'Công nghệ thông tin', 15),
+	('TOAN', N'Toán', 20),
+	('SINH', N'Sinh học', 7);
+
+INSERT INTO SINHVIEN
+VALUES
+	('SV001', 'BUI THUY AN', N'Nữ', '223 TRAN HUNG DAO .HCM', '0843132202', 'CNTT'),
+	('SV002', 'NGUYEN THANH TUNG', N'Nam', '140 CONG QUYNH .HCM', '0581525678', 'CNTT'),
+	('SV003', 'NGUYEN THANH LONG', N'Nam', '112/4 CONG QUYNH .HCM', '0918345623', 'TOAN'),
+	('SV004', 'HOANG THI HOA', N'Nữ', '90 NG VAN CU .HCM', '0988320123', 'CNTT'),
+	('SV005', 'TRAN HONG SON', N'Nam', '54 CAO THANG .HANOI', '0928345987', 'CNTT');
+
+INSERT INTO MONHOC
+VALUES
+	('CSDL', 'CO SO DU LIEU', 3),
+	('CTDL', 'CAU TRUC DU LIEU', 4),
+	('KTLT', 'KY THUAT LAP TRINH', 5),
+	('CWIN', 'LAP TRINH C TREN WINDOWS', 4);
+
+INSERT INTO GIAOVIEN
+VALUES
+	('GV01', 'PHAM THI THAO', 'CNTT'),
+	('GV02', 'LAM HOANG VU', 'TOAN'),
+	('GV03', 'TRAN HOANG TIEN', 'CNTT'),
+	('GV04', 'HOANG VUONG', 'CNTT');
+
+INSERT INTO GIANGDAY
+VALUES
+	('K1', 'GV01', 'CSDL', 1, 2021),
+	('K2', 'GV04', 'KTLT', 2, 2020),
+	('K3', 'GV03', 'CTDL', 1, 2020),
+	('K4', 'GV04', 'CWIN', 1, 2020),
+	('K5', 'GV01', 'CSDL', 1, 2021);
+
+INSERT INTO KETQUA
+VALUES
+	('SV001', 'K1', 8.5),
+	('SV002', 'K3', 7.0),
+	('SV003', 'K4', 7.5),
+	('SV001', 'K2', 9.0),
+	('SV004', 'K3', 6.0),
+	('SV005', 'K3', 7.0),
+	('SV002', 'K1', 7.0),
+	('SV003', 'K2', 8.5),
+	('SV005', 'K5', 7.0),
+	('SV004', 'K4', 2.0);
