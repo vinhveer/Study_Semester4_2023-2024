@@ -34,7 +34,7 @@ Tải về thư mục [Graphics Header Files](ComputerGraphics/Install_Graphics.
 - Các bạn vào mục Settings → Tìm Code-runner: Execuror Map
 - Tìm đến mục như hình, chọn Edit in settings.json
     
-![Alt text](Install_Graphics.h\img\Untitled%20(5).png)
+![Alt text](img\Untitled1.png)
     
 - Tại mục cpp, thay đổi lệnh biên dịch như sau
     
@@ -44,7 +44,7 @@ Tải về thư mục [Graphics Header Files](ComputerGraphics/Install_Graphics.
     
     - Các bạn dán vào chỗ mình đã đánh dấu như trong hình là ok
     
-    ![Untitled](Install_Graphics.h\img\Untitled%20(6).png)
+    ![Untitled](img\Untitled.png)
 
 ## Hoàn tất
 - Để chạy code, chọn `Run code` như video
