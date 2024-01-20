@@ -7,7 +7,7 @@
 - Mở file lên và cài đặt, không có lưu ý gì khác, cứ next.
 
 ## Bước 2. Copy thư viện graphics.h và winbgim.h vào thư mục TDM-GCC-32
-Tải về thư mục [Graphics Header Files](Install_Graphics.h/Graphics%20Header%20Files)
+Tải về thư mục [Graphics Header Files](ComputerGraphics/Install_Graphics.h/img/Untitled (6).png)
 - Sau khi tải về, copy hai file là `graphics.h` và `winbgim.h`, dán vào thư mục `TDM-GCC-32\include` như video.
 
 <video controls>
