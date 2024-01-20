@@ -10,14 +10,11 @@
 Tải về thư mục [Graphics Header Files](ComputerGraphics/Install_Graphics.h/img/Untitled (6).png)
 - Sau khi tải về, copy hai file là `graphics.h` và `winbgim.h`, dán vào thư mục `TDM-GCC-32\include` như video.
 
-<video controls>
-  <source src="img/20240120_132225.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/vinhveer/Study_Semester4_2023-2024/assets/63202399/31747d64-c5de-4368-8303-5252bde1a250
 
 - Copy file `libbgi.a`, dán vào thư mục `TDM-GCC-32\lib` như video
 
-https://github.com/vinhveer/Study_Semester4_2023-2024/blob/631eb65ce6f85370f6110283266f2e6d76b89617/ComputerGraphics/Install_Graphics.h/img/20240120_132225.mp4
+https://github.com/vinhveer/Study_Semester4_2023-2024/assets/63202399/7383eba1-7f79-452e-b462-8081bffe1422
 
 ## Bước 3. Config VSCode
 
@@ -46,7 +43,4 @@ https://github.com/vinhveer/Study_Semester4_2023-2024/blob/631eb65ce6f85370f6110
 ## Hoàn tất
 - Để chạy code, chọn `Run code` như video
 
-<video controls>
-  <source src="img/20240120_133857.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/vinhveer/Study_Semester4_2023-2024/assets/63202399/9e67a9eb-4f94-481b-8c8b-7da730a8155d
