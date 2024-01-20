@@ -11,7 +11,7 @@ Tải về thư mục [Graphics Header Files](ComputerGraphics/Install_Graphics.
 - Sau khi tải về, copy hai file là `graphics.h` và `winbgim.h`, dán vào thư mục `TDM-GCC-32\include` như video.
 
 <video controls>
-  <source src="Install_Graphics.h\img\20240120_132225.mp4" type="video/mp4">
+  <source src="img/20240120_132225.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -31,7 +31,7 @@ https://github.com/vinhveer/Study_Semester4_2023-2024/blob/631eb65ce6f85370f6110
 - Các bạn vào mục Settings → Tìm Code-runner: Execuror Map
 - Tìm đến mục như hình, chọn Edit in settings.json
     
-![Alt text](img\Untitled1.png)
+![Alt text](img/Untitled1.png)
     
 - Tại mục cpp, thay đổi lệnh biên dịch như sau
     
@@ -41,12 +41,12 @@ https://github.com/vinhveer/Study_Semester4_2023-2024/blob/631eb65ce6f85370f6110
     
     - Các bạn dán vào chỗ mình đã đánh dấu như trong hình là ok
     
-    ![Untitled](img\Untitled.png)
+    ![Untitled](img/Untitled.png)
 
 ## Hoàn tất
 - Để chạy code, chọn `Run code` như video
 
 <video controls>
-  <source src="Install_Graphics.h\img\20240120_133857.mp4" type="video/mp4">
+  <source src="img/20240120_133857.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
