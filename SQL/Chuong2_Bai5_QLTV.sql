@@ -1,0 +1,118 @@
+﻿-- 5.1. Tạo database
+CREATE DATABASE QLTV;
+
+-- 5.2. Tạo bảng
+USE QLTV;
+
+CREATE TABLE DocGia
+(
+    Ma_DocGia NUMERIC IDENTITY(1,1),
+    Ho NVARCHAR(10) NOT NULL,
+    TenLot NVARCHAR(20) NOT NULL,
+    Ten NVARCHAR(10) NOT NULL,
+    NgaySinh DATE NOT NULL,
+    CONSTRAINT docgia_pk PRIMARY KEY (Ma_DocGia)
+);
+
+CREATE TABLE NguoiLon
+(
+	Ma_DocGia NUMERIC NOT NULL,
+	SoNha VARCHAR(10) NOT NULL,
+	Duong NVARCHAR(50) NOT NULL,
+	Quan NVARCHAR(20) NOT NULL,
+	DienThoai VARCHAR(15) NOT NULL,
+	HanSuDung DATE,
+	CONSTRAINT nguoilon_pk PRIMARY KEY (Ma_DocGia)
+);
+
+CREATE TABLE TreEm
+(
+	Ma_DocGia NUMERIC NOT NULL,
+	Ma_DocGia_NguoiLon NUMERIC NOT NULL,
+	CONSTRAINT treem_pk PRIMARY KEY (Ma_DocGia)
+);
+
+CREATE TABLE TuaSach
+(
+	Ma_TuaSach VARCHAR(5) NOT NULL,
+	TuaSach NVARCHAR(255) NOT NULL,
+	TacGia NVARCHAR(255) NOT NULL,
+	TomTat NVARCHAR(255) NOT NULL,
+	CONSTRAINT tuasach_pk PRIMARY KEY (Ma_TuaSach)
+);
+
+CREATE TABLE DauSach
+(
+	ISBN VARCHAR(20) NOT NULL,
+	Ma_TuaSach VARCHAR(5) NOT NULL,
+	NgonNgu NVARCHAR(15) NOT NULL,
+	Bia NVARCHAR(50) NOT NULL,
+	TrangThai NVARCHAR(15) NOT NULL,
+	CONSTRAINT dausach_pk PRIMARY KEY (ISBN)
+);
+
+CREATE TABLE CuonSach
+(
+	ISBN VARCHAR(20) NOT NULL,
+	Ma_CuonSach VARCHAR(5) NOT NULL,
+	TinhTrang VARCHAR(255) NOT NULL,
+	CONSTRAINT cuonsach_pk PRIMARY KEY (ISBN, Ma_CuonSach)
+);
+
+CREATE TABLE DangKy
+(
+	ISBN VARCHAR(20) NOT NULL,
+	Ma_DocGia NUMERIC NOT NULL,
+	NgayDK DATE NOT NULL,
+	GhiChu NVARCHAR(255) NOT NULL,
+	CONSTRAINT dangky_pk PRIMARY KEY (ISBN, Ma_DocGia)
+);
+
+CREATE TABLE Muon
+(
+	ISBN VARCHAR(20) NOT NULL,
+	Ma_CuonSach VARCHAR(5) NOT NULL, 
+	Ma_DocGia NUMERIC NOT NULL,
+	NgayMuon DATE NOT NULL,
+	NgayHetHan DATE NOT NULL,
+	CONSTRAINT muon_pk PRIMARY KEY (ISBN, Ma_CuonSach)
+);
+
+CREATE TABLE QuaTrinhMuon
+(
+	ISBN VARCHAR(20) NOT NULL,
+	Ma_CuonSach VARCHAR(5) NOT NULL,
+	NgayMuon DATE NOT NULL,
+	MaDocGia NUMERIC NOT NULL,
+	NgayHetHan DATE NOT NULL,
+	NgayTra DATE NOT NULL,
+	TienMuon MONEY NOT NULL,
+	TienDaTra MONEY NOT NULL,
+	TienDatCoc MONEY NOT NULL,
+	GhiChu NVARCHAR(255) NOT NULL,
+	CONSTRAINT quatrinhmuon_pk PRIMARY KEY (ISBN, Ma_CuonSach, NgayMuon)
+);
+
+ALTER TABLE DangKy
+ADD CONSTRAINT dangky_madocgia_fk FOREIGN KEY (Ma_DocGia) REFERENCES DocGia (Ma_DocGia),
+	CONSTRAINT dangky_isbn_fk FOREIGN KEY (ISBN) REFERENCES DauSach (ISBN);
+
+ALTER TABLE Muon
+ADD CONSTRAINT muon_isbn_macuonsach_fk FOREIGN KEY (ISBN, Ma_CuonSach) REFERENCES CuonSach (ISBN, Ma_CuonSach),
+	CONSTRAINT muon_madocgia_fk FOREIGN KEY (Ma_DocGia) REFERENCES DocGia (Ma_DocGia);
+
+ALTER TABLE TreEm
+ADD CONSTRAINT treem_madocgianguoilon_fk FOREIGN KEY (Ma_DocGia_NguoiLon) REFERENCES NguoiLon (Ma_DocGia);
+
+ALTER TABLE NguoiLon
+ADD CONSTRAINT nguoilon_madocgia_fk FOREIGN KEY (Ma_DocGia) REFERENCES DocGia (Ma_DocGia);
+
+ALTER TABLE QuaTrinhMuon
+ADD CONSTRAINT quatrinhmuon_isbn_macuonsach_fk FOREIGN KEY (ISBN, Ma_CuonSach) REFERENCES CuonSach (ISBN, Ma_CuonSach),
+    CONSTRAINT quatrinhmuon_madocgia_fk FOREIGN KEY (MaDocGia) REFERENCES DocGia (Ma_DocGia);
+
+ALTER TABLE CuonSach
+ADD CONSTRAINT cuonsach_isbn_fk FOREIGN KEY (ISBN) REFERENCES DauSach (ISBN);
+
+ALTER TABLE DauSach
+ADD CONSTRAINT dausach_matuasach FOREIGN KEY (Ma_TuaSach) REFERENCES TuaSach (Ma_TuaSach);

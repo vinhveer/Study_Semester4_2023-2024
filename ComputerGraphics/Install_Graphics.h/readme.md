@@ -20,7 +20,7 @@ https://github.com/vinhveer/Study_Semester4_2023-2024/assets/63202399/7383eba1-7
 
 ### Các extension cần cài đặt
 
-- `Code Runner`
+- Code Runner
 - C/C++ Extension Pack
 
 ### Config Code Runner
