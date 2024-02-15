@@ -225,14 +225,15 @@ VALUES
 ('tranthanhtri', 'dododododo', '69'),
 ('nguyenminhtai', 'dododododo', '70');
 
-INSERT INTO course (course_code, course_name, course_description, teacher_id, start_date, end_date, status)
-VALUES
-('INS325', 'Hệ điều hành', 'No description', '68', '2024-01-01', '2024-12-12', 'A'),
-('MAT328', 'Toán 2', 'No description', '69', '2024-01-01', '2024-12-12', 'N'),
-('NEC321', 'Kiến trúc máy tính', 'No description', '69', '2024-01-01', '2024-12-12', 'A'),
-('POL309', 'Kinh tế chính trị Mác - Lênin', 'No description', '68', '2024-01-01', '2024-12-12', 'A'),
-('SOT315', 'Nhập môn lập trình', 'No description', '68', '2024-01-01', '2024-12-12', 'A'),
-('SSH378', 'Tư duy phản biện', 'No description', '69', '2024-01-01', '2024-12-12', 'A');
+insert into course (course_id, course_code, course_name, course_description, teacher_id, start_date, end_date, status, course_background)
+values  (1, 'INS325', 'Hệ điều hành', 'No description', 68, '2024-01-01', '2024-12-12', 'A', '1.jpg'),
+        (2, 'MAT328', 'Toán 2', 'No description', 69, '2024-01-01', '2024-12-12', 'A', '2.jpg'),
+        (3, 'NEC321', 'Kiến trúc máy tính', 'No description', 69, '2024-01-01', '2024-12-12', 'A', '3.jpg'),
+        (4, 'POL309', 'Kinh tế chính trị Mác - Lênin', 'No description', 68, '2024-01-01', '2024-12-12', 'A', '4.jpg'),
+        (5, 'SOT315', 'Nhập môn lập trình', 'No description', 68, '2024-01-01', '2024-12-12', 'A', '5.jpg'),
+        (6, 'SSH378', 'Tư duy phản biện', 'No description', 69, '2024-01-01', '2024-12-12', 'A', '6.jpg'),
+        (7, 'SOT320', 'Kỹ thuật lập trình', 'Không có chi tiết', 69, '2024-01-01', '2024-12-12', 'A', '7.jpg'),
+        (8, 'SOT211', 'Tin học đại cương', 'Không có mô tả', 69, '2024-01-01', '2024-12-31', 'A', 'SOT211_pexels-beata-kamińska-868514.jpg');
 
 INSERT INTO course_schedule (course_id, day_of_week, start_time, end_time)
 VALUES

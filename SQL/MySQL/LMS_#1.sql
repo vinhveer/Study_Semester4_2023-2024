@@ -38,6 +38,7 @@ CREATE TABLE user_account
 CREATE TABLE course
 (
     course_id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    course_background VARCHAR(255),
     course_code VARCHAR(10) NOT NULL,
     course_name VARCHAR(255) NOT NULL,
     course_description TEXT NOT NULL,

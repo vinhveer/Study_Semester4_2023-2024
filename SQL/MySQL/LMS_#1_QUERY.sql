@@ -24,7 +24,7 @@ INNER JOIN course co ON cs.course_id = co.course_id
 INNER JOIN course_member cm ON co.course_id = cm.course_id
 INNER JOIN user us ON cm.student_id = us.user_id WHERE us.user_id = 1;
 
--- Đăng ký khóa học
+-- Danh sách khóa học chưa đăng ký
 SELECT co.*
 FROM course co
 WHERE NOT EXISTS (
@@ -33,6 +33,9 @@ WHERE NOT EXISTS (
     INNER JOIN user us ON cm.student_id = us.user_id
     WHERE co.course_id = cm.course_id AND us.user_id = 1
 );
+
+-- Tham gia khóa học
+INSERT INTO course_member (course_id, student_id) VALUES ();
 
 -- Trong khóa học, giả sử là INS325
 -- Danh sách thành viên khóa học
@@ -49,4 +52,4 @@ INNER JOIN course_member cm ON co.course_id = cm.course_id
 INNER JOIN user us ON cm.student_id = us.user_id
 INNER JOIN grade gr ON cm.member_id = gr.member_id
 INNER JOIN grade_column gc ON gr.column_id = gc.column_id
-WHERE co.course_code = 'INS325' AND us.user_id = 1;
+WHERE co.course_code = 'INS325' AND us.user_id = 2;

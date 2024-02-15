@@ -1,0 +1,7 @@
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\Vidu2_Chude2_LTHDT\bin\Debug\Vidu2_Chude2_LTHDT.exe.config
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\Vidu2_Chude2_LTHDT\bin\Debug\Vidu2_Chude2_LTHDT.exe
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\Vidu2_Chude2_LTHDT\bin\Debug\Vidu2_Chude2_LTHDT.pdb
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\Vidu2_Chude2_LTHDT\obj\Debug\Vidu2_Chude2_LTHDT.csproj.AssemblyReference.cache
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\Vidu2_Chude2_LTHDT\obj\Debug\Vidu2_Chude2_LTHDT.csproj.CoreCompileInputs.cache
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\Vidu2_Chude2_LTHDT\obj\Debug\Vidu2_Chude2_LTHDT.exe
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\Vidu2_Chude2_LTHDT\obj\Debug\Vidu2_Chude2_LTHDT.pdb
