@@ -142,3 +142,92 @@ ALTER TABLE HLV_CLB
 ADD CONSTRAINT hlv_clb_mahlv_fk FOREIGN KEY (MAHLV) REFERENCES HUANLUYENVIEN (MAHLV),
 	CONSTRAINT hlv_clb_maclb_fk FOREIGN KEY (MACLB) REFERENCES CAULACBO (MACLB);
 
+INSERT INTO SANVD
+VALUES
+	('GD',N'Gò Đậu',N'123 QL1, TX Thủ Dầu Một, Bình Dương'),
+	('PL',N'Pleiku',N'22 Hồ Tùng Mậu, Thống Nhất, Thị xã Pleiku, Gia Lai'),
+	('CL',N'Chi Lăng',N'127 Võ Văn Tần, Đà Nẵng'),
+	('NT',N'Nha Trang',N'128 Phan Chu Trinh, Nha Trang, Khánh Hòa'),
+	('TH',N'Tuy Hòa',N'57 Trường Chinh, Tuy Hòa, Phú Yên'),
+	('LA',N'Long An',N'102 Hùng Vương, Tp Tân An, Long An');
+INSERT INTO QUOCGIA 
+VALUES
+	('VN',N'Việt Nam'),
+	('ANH',N'Anh Quốc'),
+	('TBN',N'Tây Ban Nha'),
+	('BDN',N'Bồ Đào Nha'),
+	('BRA',N'Bra-xin'),
+	('ITA',N'Ý'),
+	('THA','Thái Lan');
+INSERT INTO HUANLUYENVIEN (MAHLV, TENHLV, NGAYSINH, DIENTHOAI, MAQG) 
+VALUES
+	('HLV01',N'Vital','1975-10-15',N'0918011075','BDN'),
+	('HLV02',N'Lê Huỳnh Đức','1972-05-20',N'01223456789','VN'),
+	('HLV03',N'Kiatisuk','1970-12-11',N'01990123456','THA'),
+	('HLV04',N'Hoàng Anh Tuấn','1970-06-10',N'0989112233','VN'),
+	('HLV05',N'Trần Công Minh','1973-07-07',N'0909099990','VN'),
+	('HLV06',N'Trần Văn Phúc','1975-03-02',N'01650101234','VN');
+INSERT INTO TINH 
+VALUES
+	('BD',N'Bình Dương'),
+	('GL',N'Gia Lai'),
+	('DN',N'Đà Nẵng'),
+	('KH',N'Khánh Hòa'),
+	('PY',N'Phú Yên'),
+	('LA',N'Long An');
+INSERT INTO CAULACBO VALUES
+	('BBD',N'BECAMEX BÌNH DƯƠNG','GD','BD'),
+	('HAGL',N'HOÀNG ANH GIA LAI','PL','GL'),
+	('SDN',N'SHB ĐÀ NẴNG','CL','DN'),
+	('KKH',N'KHATOCO KHÁNH HÒA','NT','KH'),
+	('TPY',N'THÉP PHÚ YÊN','TH','PY'),
+	('GDT',N'GẠCH ĐỒNG TÂM LONG','LA','LA');
+INSERT INTO CAUTHU (HOTEN, VITRI, NGAYSINH, MACLB, MAQG, SO) 
+VALUES
+	(N'Nguyễn Vũ Phong',N'Tiền vệ','1990-02-20','BBD','VN',17),
+	(N'Nguyễn Công Vinh',N'Tiền đạo','1992-03-10','HAGL','VN',9),
+	(N'Trần Tấn Tài',N'Tiền vệ','1999-11-12','BBD','VN',8),
+	(N'Phan Hồng Sơn',N'Thủ môn','1991-06-10','HAGL','VN',1),
+	(N'Ronaldo',N'Tiền vệ','1989-12-12','SDN','BRA',7),
+	(N'Robinho',N'Tiền vệ','1989-10-12','SDN','BRA',8),
+	(N'Vidic',N'Hậu vệ','1987-10-15','HAGL','ANH',3),
+	(N'Trần Văn Santos',N'Thủ môn','1990-10-21','BBD','BRA',1),
+	(N'Nguyễn Trường Sơn',N'Hậu vệ','1993-8-26','BBD','VN',4);
+INSERT INTO HLV_CLB 
+VALUES
+	('HLV01','BBD',N'HLV Chính'),
+	('HLV02','SDN',N'HLV Chính'),
+	('HLV03','HAGL',N'HLV Chính'),
+	('HLV04','KKH',N'HLV Chính'),
+	('HLV05','GDT',N'HLV Chính'),
+	('HLV06','BBD',N'HLV Thủ môn');
+INSERT INTO TRANDAU VALUES
+	(1,2023,1,'2023-2-7','BBD','SDN','GD','3-0'),
+	(2,2023,1,'2023-2-7','KKH','GDT','NT','1-1'),
+	(3,2023,2,'2023-2-16','SDN','KKH','CL','2-2'),
+	(4,2023,2,'2023-2-16','TPY','BBD','TH','5-0'),
+	(5,2023,3,'2023-3-1','TPY','GDT','TH','0-2'),
+	(6,2023,3,'2023-3-1','KKH','BBD','NT','0-1'),
+	(7,2023,4,'2023-3-7','KKH','TPY','NT','1-0'),
+	(8,2023,4,'2023-3-7','BBD','GDT','GD','2-2');
+INSERT INTO BANGXH VALUES
+	('BBD',2023,1,1,1,0,0,'3-0',3,1),
+	('KKH',2023,1,1,0,1,0,'1-1',1,2),
+	('GDT',2023,1,1,0,1,0,'1-1',1,3),
+	('TPY',2023,1,0,0,0,0,'0-0',0,4),
+	('SDN',2023,1,1,0,0,1,'0-3',0,5),
+	('TPY',2023,2,1,1,0,0,'5-0',3,1),
+	('BBD',2023,2,2,1,0,1,'3-5',3,2),
+	('KKH',2023,2,2,0,2,0,'3-3',2,3),
+	('GDT',2023,2,1,0,1,0,'1-1',1,4),
+	('SDN',2023,2,2,1,1,0,'2-5',1,5),
+	('BBD',2023,3,3,2,0,1,'4-5',6,1),
+	('GDT',2023,3,2,1,1,0,'3-1',4,2),
+	('TPY',2023,3,2,1,0,1,'5-2',3,3),
+	('KKH',2023,3,3,0,2,1,'3-4',2,4),
+	('SDN',2023,3,2,1,1,0,'2-5',1,5),
+	('BBD',2023,4,4,2,1,1,'6-7',7,1),
+	('GDT',2023,4,3,1,2,0,'5-1',5,2),
+	('KKH',2023,4,4,1,2,1,'4-4',5,3),
+	('TPY',2023,4,3,1,0,2,'5-3',3,4),
+	('SDN',2023,4,2,1,1,0,'2-5',1,5);
