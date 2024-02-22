@@ -150,6 +150,7 @@ VALUES
 	('NT',N'Nha Trang',N'128 Phan Chu Trinh, Nha Trang, Khánh Hòa'),
 	('TH',N'Tuy Hòa',N'57 Trường Chinh, Tuy Hòa, Phú Yên'),
 	('LA',N'Long An',N'102 Hùng Vương, Tp Tân An, Long An');
+
 INSERT INTO QUOCGIA 
 VALUES
 	('VN',N'Việt Nam'),
@@ -159,6 +160,7 @@ VALUES
 	('BRA',N'Bra-xin'),
 	('ITA',N'Ý'),
 	('THA','Thái Lan');
+
 INSERT INTO HUANLUYENVIEN (MAHLV, TENHLV, NGAYSINH, DIENTHOAI, MAQG) 
 VALUES
 	('HLV01',N'Vital','1975-10-15',N'0918011075','BDN'),
@@ -167,6 +169,7 @@ VALUES
 	('HLV04',N'Hoàng Anh Tuấn','1970-06-10',N'0989112233','VN'),
 	('HLV05',N'Trần Công Minh','1973-07-07',N'0909099990','VN'),
 	('HLV06',N'Trần Văn Phúc','1975-03-02',N'01650101234','VN');
+
 INSERT INTO TINH 
 VALUES
 	('BD',N'Bình Dương'),
@@ -175,13 +178,16 @@ VALUES
 	('KH',N'Khánh Hòa'),
 	('PY',N'Phú Yên'),
 	('LA',N'Long An');
-INSERT INTO CAULACBO VALUES
+
+INSERT INTO CAULACBO 
+VALUES
 	('BBD',N'BECAMEX BÌNH DƯƠNG','GD','BD'),
 	('HAGL',N'HOÀNG ANH GIA LAI','PL','GL'),
 	('SDN',N'SHB ĐÀ NẴNG','CL','DN'),
 	('KKH',N'KHATOCO KHÁNH HÒA','NT','KH'),
 	('TPY',N'THÉP PHÚ YÊN','TH','PY'),
 	('GDT',N'GẠCH ĐỒNG TÂM LONG','LA','LA');
+
 INSERT INTO CAUTHU (HOTEN, VITRI, NGAYSINH, MACLB, MAQG, SO) 
 VALUES
 	(N'Nguyễn Vũ Phong',N'Tiền vệ','1990-02-20','BBD','VN',17),
@@ -193,6 +199,7 @@ VALUES
 	(N'Vidic',N'Hậu vệ','1987-10-15','HAGL','ANH',3),
 	(N'Trần Văn Santos',N'Thủ môn','1990-10-21','BBD','BRA',1),
 	(N'Nguyễn Trường Sơn',N'Hậu vệ','1993-8-26','BBD','VN',4);
+
 INSERT INTO HLV_CLB 
 VALUES
 	('HLV01','BBD',N'HLV Chính'),
@@ -201,7 +208,9 @@ VALUES
 	('HLV04','KKH',N'HLV Chính'),
 	('HLV05','GDT',N'HLV Chính'),
 	('HLV06','BBD',N'HLV Thủ môn');
-INSERT INTO TRANDAU VALUES
+
+INSERT INTO TRANDAU 
+VALUES
 	(1,2023,1,'2023-2-7','BBD','SDN','GD','3-0'),
 	(2,2023,1,'2023-2-7','KKH','GDT','NT','1-1'),
 	(3,2023,2,'2023-2-16','SDN','KKH','CL','2-2'),
@@ -210,7 +219,9 @@ INSERT INTO TRANDAU VALUES
 	(6,2023,3,'2023-3-1','KKH','BBD','NT','0-1'),
 	(7,2023,4,'2023-3-7','KKH','TPY','NT','1-0'),
 	(8,2023,4,'2023-3-7','BBD','GDT','GD','2-2');
-INSERT INTO BANGXH VALUES
+
+INSERT INTO BANGXH 
+VALUES
 	('BBD',2023,1,1,1,0,0,'3-0',3,1),
 	('KKH',2023,1,1,0,1,0,'1-1',1,2),
 	('GDT',2023,1,1,0,1,0,'1-1',1,3),
