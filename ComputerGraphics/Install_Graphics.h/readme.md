@@ -1,4 +1,4 @@
-# Cài đặt thư viện graphics.h và winbgim.h trên VSCode (Trên Windows)
+# Cài đặt thư viện graphics.h và winbgim.h trên VSCode - Windows
 
 ## Bước 1. Cài đặt TDM-GCC 32bit
 - Truy cập vào đường link [https://jmeubank.github.io/tdm-gcc/download/](https://jmeubank.github.io/tdm-gcc/download/), tải file cài đặt 32bit như hình

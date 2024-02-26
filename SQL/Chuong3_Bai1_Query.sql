@@ -67,11 +67,22 @@ WHERE s.Ten LIKE '%TUNG%';
 
 -- Câu 14. Cho biết tên khoa, tên môn học mà những sinh viên trong khoa đã học.
 
+
 -- Câu 15. Cho biết tên khoa, mã khóa học mà giáo viên của khoa có tham gia giảng dạy.
 
--- Câu 16. Cho biết các sinh viên đã học môn “CSDL' hoặc 'CTDL'.
+-- Câu 16. Cho biết các sinh viên đã học môn 'CSDL' hoặc 'CTDL'.
+SELECT SV.MSSV, SV.Ten, MH.MaMH, MH.TenMH, KQ.Diem
+FROM SINHVIEN SV
+JOIN KETQUA KQ ON SV.MSSV = KQ.MaSV
+JOIN GIANGDAY GD ON KQ.MaKhoaHoc = GD.MaKhoaHoc
+JOIN MONHOC MH ON GD.MaMH = MH.MaMH
+WHERE MH.MaMH IN ('CSDL', 'CTDL');
 
 -- Câu 17. Cho biết tên những giáo viên tham gia giảng dạy môn "KY THUAT LAP TRINH".
+SELECT gv.TenGV
+FROM GIAOVIEN gv
+JOIN GIANGDAY gi ON gi.MaGV = gv.MaGV
+JOIN MONHOC mh ON mh.MaMH = gi.MaMH WHERE mh.TenMH = 'KY THUAT LAP TRINH';
 
 -- Câu 18. Cho biết tên môn học mà giáo viên "Tran Van Tien" tham gia giảng dạy trong học kỳ 1 năm học 2020.
 
