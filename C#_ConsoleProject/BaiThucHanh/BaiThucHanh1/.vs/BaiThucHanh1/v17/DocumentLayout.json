@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F37A3DDC-1A50-495B-9D5D-2AB6143E97EF}|Bai4\\Bai4.csproj|d:\\desktop\\study\\study_semester4_2023-2024\\c#_consoleproject\\baithuchanh\\baithuchanh1\\bai4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F37A3DDC-1A50-495B-9D5D-2AB6143E97EF}|Bai4\\Bai4.csproj|solutionrelative:bai4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{80A88EE4-C1E3-4419-8183-CC91F3ECCA62}|Bai3\\Bai3.csproj|d:\\desktop\\study\\study_semester4_2023-2024\\c#_consoleproject\\baithuchanh\\baithuchanh1\\bai3\\year.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80A88EE4-C1E3-4419-8183-CC91F3ECCA62}|Bai3\\Bai3.csproj|solutionrelative:bai3\\year.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80A88EE4-C1E3-4419-8183-CC91F3ECCA62}|Bai3\\Bai3.csproj|d:\\desktop\\study\\study_semester4_2023-2024\\c#_consoleproject\\baithuchanh\\baithuchanh1\\bai3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{80A88EE4-C1E3-4419-8183-CC91F3ECCA62}|Bai3\\Bai3.csproj|D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh1\\bai3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80A88EE4-C1E3-4419-8183-CC91F3ECCA62}|Bai3\\Bai3.csproj|solutionrelative:bai3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,27 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Year.cs",
-              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh1\\Bai3\\Year.cs",
-              "RelativeDocumentMoniker": "Bai3\\Year.cs",
-              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh1\\Bai3\\Year.cs",
-              "RelativeToolTip": "Bai3\\Year.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh1\\Bai4\\Program.cs",
+              "RelativeDocumentMoniker": "Bai4\\Program.cs",
+              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh1\\Bai4\\Program.cs",
+              "RelativeToolTip": "Bai4\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-29T19:23:22.285Z",
+              "WhenOpened": "2024-02-29T19:37:03.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh1\\Bai3\\Program.cs",
               "RelativeDocumentMoniker": "Bai3\\Program.cs",
               "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh1\\Bai3\\Program.cs",
               "RelativeToolTip": "Bai3\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-29T19:22:44.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Year.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh1\\Bai3\\Year.cs",
+              "RelativeDocumentMoniker": "Bai3\\Year.cs",
+              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh1\\Bai3\\Year.cs",
+              "RelativeToolTip": "Bai3\\Year.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T19:23:22.285Z",
               "EditorCaption": ""
             }
           ]

@@ -1,38 +1,29 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Bai3
 {
     internal class Year
     {
-        private DateTime year;
+        private int year;
 
-        private static void Input(out DateTime year)
+        public void Input()
         {
             Console.Write("Enter year (yyyy): ");
-            string inputYear = Console.ReadLine();
-
-            while (!DateTime.TryParseExact(inputYear, "yyyy", null, System.Globalization.DateTimeStyles.None, out year))
+            while (!int.TryParse(Console.ReadLine(), out year) || year <= 0)
             {
-                Console.WriteLine("Invalid input. Please try again!");
+                Console.WriteLine("Invalid input. Please enter a valid year.");
                 Console.Write("Enter year (yyyy): ");
-                inputYear = Console.ReadLine();
             }
         }
 
-        private static void Output(DateTime year)
+        public void Output()
         {
-            if (!DateTime.IsLeapYear(year.Year))
-            {
-                Console.WriteLine("This is not a leap year.");
-            }
-            else
-            {
-                Console.WriteLine("This is a leap year.");
-            }
+            Console.WriteLine($"{year} is {(IsLeapYear() ? "a leap year" : "not a leap year")}.");
+        }
+
+        public bool IsLeapYear()
+        {
+            return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
         }
     }
 }
