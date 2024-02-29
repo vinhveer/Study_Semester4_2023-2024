@@ -1,7 +1,0 @@
-D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\BaiThucHanh1\Bai3\bin\Debug\Bai3.exe.config
-D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\BaiThucHanh1\Bai3\bin\Debug\Bai3.exe
-D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\BaiThucHanh1\Bai3\bin\Debug\Bai3.pdb
-D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\BaiThucHanh1\Bai3\obj\Debug\Bai3.csproj.AssemblyReference.cache
-D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\BaiThucHanh1\Bai3\obj\Debug\Bai3.csproj.CoreCompileInputs.cache
-D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\BaiThucHanh1\Bai3\obj\Debug\Bai3.exe
-D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\BaiThucHanh1\Bai3\obj\Debug\Bai3.pdb
