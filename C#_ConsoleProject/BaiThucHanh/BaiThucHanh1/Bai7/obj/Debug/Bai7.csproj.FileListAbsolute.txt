@@ -1,0 +1,7 @@
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\BaiThucHanh\BaiThucHanh1\Bai7\bin\Debug\Bai7.exe.config
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\BaiThucHanh\BaiThucHanh1\Bai7\bin\Debug\Bai7.exe
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\BaiThucHanh\BaiThucHanh1\Bai7\bin\Debug\Bai7.pdb
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\BaiThucHanh\BaiThucHanh1\Bai7\obj\Debug\Bai7.csproj.AssemblyReference.cache
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\BaiThucHanh\BaiThucHanh1\Bai7\obj\Debug\Bai7.csproj.CoreCompileInputs.cache
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\BaiThucHanh\BaiThucHanh1\Bai7\obj\Debug\Bai7.exe
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\BaiThucHanh\BaiThucHanh1\Bai7\obj\Debug\Bai7.pdb

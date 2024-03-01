@@ -10,6 +10,9 @@ namespace Bai4
     {
         static void Main(string[] args)
         {
+            Operation operation = new Operation();
+            operation.Input();
+            operation.Output();
         }
     }
 }

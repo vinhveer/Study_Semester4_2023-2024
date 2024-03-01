@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Data with Bootstrap</title>
+    <!-- Thêm Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Thêm jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <!-- Nội dung trang sẽ được thêm ở đây -->
+    <div class="container mt-5">
+        <h2>Subject List</h2>
+        <ul id="subjectList" class="list-group">
+            <!-- Dữ liệu sẽ được thêm ở đây -->
+        </ul>
+    </div>
+
+    <!-- Thêm Bootstrap JS và Popper.js CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Đoạn mã JavaScript để tải dữ liệu từ API -->
+    <script>
+        $(document).ready(function(){
+            // Sử dụng jQuery để gửi yêu cầu GET đến API
+            $.get("http://localhost:8080/api/subject/get-all", function(data){
+                // Lặp qua mảng dữ liệu và thêm vào danh sách
+                data.forEach(function(subject){
+                    $("#subjectList").append(`
+                        <li class="list-group-item">
+                            <strong>ID:</strong> ${subject.id}<br>
+                            <strong>Subject Name:</strong> ${subject.subjectName}<br>
+                            <strong>Credit:</strong> ${subject.credit}
+                        </li>
+                    `);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
