@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+table {
+    width: 80%;
+    border: 1px solid #000;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+.select {
+    background-color: #fff2cc;
+    color: #377ab7;
+    font-weight: bold;
+    text-align: center;
+}
+
+.non-select {
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.footer {
+    text-align: center;
+}
