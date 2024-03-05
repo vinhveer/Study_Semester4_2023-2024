@@ -1,0 +1,7 @@
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\Lecture_ChuDe4\Vidu32\bin\Debug\Vidu32.exe.config
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\Lecture_ChuDe4\Vidu32\bin\Debug\Vidu32.exe
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\Lecture_ChuDe4\Vidu32\bin\Debug\Vidu32.pdb
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\Lecture_ChuDe4\Vidu32\obj\Debug\Vidu32.csproj.AssemblyReference.cache
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\Lecture_ChuDe4\Vidu32\obj\Debug\Vidu32.csproj.CoreCompileInputs.cache
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\Lecture_ChuDe4\Vidu32\obj\Debug\Vidu32.exe
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\Lecture_ChuDe4\Vidu32\obj\Debug\Vidu32.pdb
