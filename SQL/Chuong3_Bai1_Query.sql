@@ -178,3 +178,7 @@ WHERE mh.MaMH = N'CSDL';
 
 -- Câu 43. Cho biết thông tin sinh viên có điểm thi môn CSDL lớn nhất.
 
+SELECT MH.TenMH
+FROM MONHOC MH
+LEFT JOIN GIANGDAY GD ON MH.MaMH = GD.MaMH
+WHERE GD.MaMH IS NULL;
