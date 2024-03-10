@@ -1,0 +1,7 @@
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\BaiTap32_ChuDe3\bin\Debug\BaiTap32_ChuDe3.exe.config
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\BaiTap32_ChuDe3\bin\Debug\BaiTap32_ChuDe3.exe
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\BaiTap32_ChuDe3\bin\Debug\BaiTap32_ChuDe3.pdb
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\BaiTap32_ChuDe3\obj\Debug\BaiTap32_ChuDe3.csproj.AssemblyReference.cache
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\BaiTap32_ChuDe3\obj\Debug\BaiTap32_ChuDe3.csproj.CoreCompileInputs.cache
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\BaiTap32_ChuDe3\obj\Debug\BaiTap32_ChuDe3.exe
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\BaiTap32_ChuDe3\obj\Debug\BaiTap32_ChuDe3.pdb

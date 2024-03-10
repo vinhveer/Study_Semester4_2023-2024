@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Bai3
 {
@@ -10,6 +6,9 @@ namespace Bai3
     {
         static void Main(string[] args)
         {
+            FlightTicket ticket = new FlightTicket();
+            ticket.Input();
+            Console.WriteLine("Price: " + ticket.CalculatePrice());
         }
     }
 }

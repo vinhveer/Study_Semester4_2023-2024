@@ -5,37 +5,40 @@ namespace Bai1
     internal class Time
     {
         private int hour;
-        private int minute;
-        private int second;
 
+        // Ham dong goi
+        public int Minute { get; set; }
+        public int Second { get; set; }
+
+        // Phuong thuc khoi tao khong doi so
         public Time()
         {
         }
 
+        // Phuong thuc khoi tao co doi so
         public Time(int h, int m, int s)
         {
             this.hour = h;
-            this.minute = m;
-            this.second = s;
+            this.Minute = m;
+            this.Second = s;
         }
 
-        public int Minute { get => minute; set => minute = value; }
-        public int Second { get => second; set => second = value; }
-
+        // Phuong thuc truy nhap
         public int GetHour()
         {
-            return hour;
+            return this.hour;
         }
 
-        public void SetHour(int i)
+        public int SetHour(int h)
         {
-            this.hour = i;
+            this.hour = h;
+            return this.hour;
         }
 
-        public void Show()
+        // Phuong thuc in thong tin
+        public void Display()
         {
-            Console.WriteLine("Time: {0}:{1}:{2}", hour, minute, second);
+            Console.WriteLine("Time: {0}:{1}:{2}", this.hour, this.Minute, this.Second);
         }
-
     }
 }

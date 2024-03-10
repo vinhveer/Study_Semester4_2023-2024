@@ -7,40 +7,66 @@ namespace Bai3
         private string flightNumber;
         private string flightName;
         private DateTime departureDate;
-        private double ticketPrice;
-        private bool seatAvailability;
-
-        public string FlightNumber { get => flightNumber; set => flightNumber = value; }
-        public string FlightName { get => flightName; set => flightName = value; }
-        public DateTime DepartureDate { get => departureDate; set => departureDate = value; }
-        public double TicketPrice { get => ticketPrice; set => ticketPrice = value; }
-        public bool SeatAvailability { get => seatAvailability; set => seatAvailability = value; }
-
-        public FlightTicket(string flightNumber, string flightName, DateTime departureDate, double ticketPrice, bool seatAvailability)
-        {
-            this.FlightNumber = flightNumber;
-            this.FlightName = flightName;
-            this.DepartureDate = departureDate;
-            this.TicketPrice = ticketPrice;
-            this.SeatAvailability = seatAvailability;
-        }
+        private float ticketPrice;
+        private bool seatAvailable;
 
         public FlightTicket()
         {
+            flightNumber = "VN123";
+            flightName = "Nha Trang - Ha Noi";
+            departureDate = DateTime.Today;
+            ticketPrice = 500;
+            seatAvailable = false;
         }
 
-        public void CaculateTicketPrice()
+        public FlightTicket(string flightName, DateTime departureDate, bool seatAvailable)
         {
-            if (this.SeatAvailability)
+            this.flightName = flightName;
+            this.departureDate = departureDate;
+            this.seatAvailable = seatAvailable;
+            this.flightNumber = "VN123";
+            this.ticketPrice = 500;
+        }
+        
+        public float TicketPrice
+        {
+            get => ticketPrice;
+            set => ticketPrice = value;
+        }
+
+        public void Input()
+        {
+            Console.WriteLine("Enter flight number: ");
+            flightNumber = Console.ReadLine();
+            Console.WriteLine("Enter flight name: ");
+            flightName = Console.ReadLine();
+            Console.WriteLine("Enter departure date: ");
+            departureDate = DateTime.Parse(Console.ReadLine());
+            Console.WriteLine("Enter ticket price: ");
+            ticketPrice = float.Parse(Console.ReadLine());
+            Console.WriteLine("Enter seat available: ");
+            seatAvailable = bool.Parse(Console.ReadLine());
+        }
+
+        public float CalculatePrice()
+        {
+            if (seatAvailable)
             {
-                this.TicketPrice = this.TicketPrice + 350 + 50;
-                Console.WriteLine("Ticket price: " + this.TicketPrice);
+                return ticketPrice + 350 + 50;
+            }
+            else
+            {
+                return ticketPrice + 350;
             }
         }
-
-        public void Show()
+        
+        public void Print()
         {
-            Console.WriteLine($"Ten chuyen bay: {this.flightName}, ngay bay: {this.departureDate}, so tien: {this.ticketPrice}");
+            Console.WriteLine("Flight Number: " + flightNumber);
+            Console.WriteLine("Flight Name: " + flightName);
+            Console.WriteLine("Departure Date: " + departureDate);
+            Console.WriteLine("Ticket Price: " + ticketPrice);
+            Console.WriteLine("Seat Available: " + seatAvailable);
         }
     }
 }
