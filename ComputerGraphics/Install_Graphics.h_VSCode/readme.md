@@ -41,7 +41,7 @@ https://github.com/vinhveer/Study_Semester4_2023-2024/assets/63202399/7383eba1-7
     ![Untitled](img/Untitled.png)
 
 ## Hoàn tất
-- Để chắc chắn các cài đặt được áp dụng, khởi động lại máy.
+- Để chắc chắn các cài đặt được áp dụng, **cần khởi động lại máy**.
 - Để chạy code, chọn `Run code` như video
 
 https://github.com/vinhveer/Study_Semester4_2023-2024/assets/63202399/9e67a9eb-4f94-481b-8c8b-7da730a8155d
