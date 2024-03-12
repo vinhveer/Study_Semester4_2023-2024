@@ -13,7 +13,7 @@ void drawLine(int x1, int y1, int x2, int y2) {
     if (dx > dy) {
         int p = 2 * dy - dx;
         while (x != x2) {
-            putpixel(x, y, RED);
+            putpixel(x, y, WHITE);
             cout << x << " " << y << endl;
             delay(100);
             if (p >= 0) {
@@ -26,7 +26,7 @@ void drawLine(int x1, int y1, int x2, int y2) {
     } else {
         int p = 2 * dx - dy;
         while (y != y2) {
-            putpixel(x, y, RED);
+            putpixel(x, y, WHITE);
             cout << x << " " << y << endl;
             delay(100);
             if (p >= 0) {
@@ -42,17 +42,21 @@ void drawLine(int x1, int y1, int x2, int y2) {
 int main() {
     initwindow(800, 400);
 
-    // drawLine(20, 30, 120, 80);
-    // drawLine(120, 80, 20, 30);
-    // drawLine(20, 80, 120, 30);
-    // drawLine(120, 30, 20, 80);
+    drawLine(100, 100, 400, 200);
 
-    drawLine(30, 20, 80, 120);
-    drawLine(80, 120, 30, 20);
-    drawLine(80, 20, 30, 120);
-    drawLine(130, 70, 80, 170);
-    drawLine(30, 120, 80, 20);
+    drawLine(100, 100, 100, 300);
+
+    drawLine(100, 100, 400, 300);
+
+    drawLine(100, 100, 300, 400);
+
+    drawLine(100, 100, 100, 500);
+
+    drawLine(100, 100, 300, 600);
+
+    drawLine(100, 100, 500, 300);
 
     getch();
     return 0;
 }
+

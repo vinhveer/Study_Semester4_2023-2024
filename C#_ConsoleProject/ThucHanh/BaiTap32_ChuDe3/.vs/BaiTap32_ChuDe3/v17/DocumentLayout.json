@@ -1,71 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\BaiTap32_ChuDe3\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{ECD5F670-908B-42E4-B8AD-7CD42D67D06B}|BaiTap32_ChuDe3.csproj|d:\\desktop\\study\\study_semester4_2023-2024\\c#_consoleproject\\thuchanh\\baitap32_chude3\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECD5F670-908B-42E4-B8AD-7CD42D67D06B}|BaiTap32_ChuDe3.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECD5F670-908B-42E4-B8AD-7CD42D67D06B}|BaiTap32_ChuDe3.csproj|d:\\desktop\\study\\study_semester4_2023-2024\\c#_consoleproject\\thuchanh\\baitap32_chude3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECD5F670-908B-42E4-B8AD-7CD42D67D06B}|BaiTap32_ChuDe3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECD5F670-908B-42E4-B8AD-7CD42D67D06B}|BaiTap32_ChuDe3.csproj|d:\\desktop\\study\\study_semester4_2023-2024\\c#_consoleproject\\thuchanh\\baitap32_chude3\\courseresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECD5F670-908B-42E4-B8AD-7CD42D67D06B}|BaiTap32_ChuDe3.csproj|solutionrelative:courseresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Student.cs",
-              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\BaiTap32_ChuDe3\\Student.cs",
-              "RelativeDocumentMoniker": "Student.cs",
-              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\BaiTap32_ChuDe3\\Student.cs",
-              "RelativeToolTip": "Student.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T04:22:18.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CourseResult.cs",
-              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\BaiTap32_ChuDe3\\CourseResult.cs",
-              "RelativeDocumentMoniker": "CourseResult.cs",
-              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\BaiTap32_ChuDe3\\CourseResult.cs",
-              "RelativeToolTip": "CourseResult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T04:21:45.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\BaiTap32_ChuDe3\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\BaiTap32_ChuDe3\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T04:21:18.871Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

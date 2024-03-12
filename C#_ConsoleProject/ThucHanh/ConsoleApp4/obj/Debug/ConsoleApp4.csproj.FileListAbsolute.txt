@@ -1,0 +1,7 @@
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.AssemblyReference.cache
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.CoreCompileInputs.cache
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\ConsoleApp4\bin\Debug\ConsoleApp4.exe.config
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\ConsoleApp4\bin\Debug\ConsoleApp4.exe
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\ConsoleApp4\bin\Debug\ConsoleApp4.pdb
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\ConsoleApp4\obj\Debug\ConsoleApp4.exe
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\ConsoleApp4\obj\Debug\ConsoleApp4.pdb
