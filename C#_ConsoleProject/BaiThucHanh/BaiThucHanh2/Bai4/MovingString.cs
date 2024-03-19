@@ -60,7 +60,22 @@ namespace Bai4
                     case ConsoleKey.Escape:
                         return;
                 }
-
+                if (x < 0)
+                {
+                    x = 0;
+                }
+                if (y < 0)
+                {
+                    y = 0;
+                }
+                if (x > Console.WindowWidth - s.Length)
+                {
+                    x = Console.WindowWidth - s.Length;
+                }
+                if (y > Console.WindowHeight - 1)
+                {
+                    y = Console.WindowHeight - 1;
+                }
                 Show();
             }
         }

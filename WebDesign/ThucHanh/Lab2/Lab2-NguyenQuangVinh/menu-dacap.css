@@ -1,47 +1,125 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-}
-
-body {
     font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
-
+a {
+    text-decoration: none;
+    color: #fff;
+}
+html {
+    color: #fff;
+    line-height: 20px;
+    font-size: 14px;
+}
 .header {
-    padding: 15px;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 5%;
-    padding-right: 10%;
+    margin-top: 20px;
 }
-
-.search input {
-    background-color: none;
-    border: none;
+.header a {
+    color: #000;
 }
-
-.search button {
-    background-color: none;
-    border: none;
-    
+.header-right {
+    text-align: right;
 }
-
-.nav {
-    display: flex;  
+.search-item {
+    background-color: #eee;
+    width: 250px;
+    height: 40px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #363636;
-    color: white;
-    padding: 18px 0;
-    margin-bottom: 20px;
-    padding-left: 5%;
-    padding-right: 5%;
+    border-radius: 20px;
+    padding: 0px 15px;
+    margin-left: 100px;
+}
+.search-item input {
+    border: none;
+    background-color: transparent;
+    width: 95%;
+    font-size: 15px;
+}
+.search-item i {
+    color: #000;
+    font-size: 18px;
+}
+.menu-header li {
+    list-style-type: none;
+    display: inline-block;
+    line-height: 40px;
+    padding-left: 7px;
+    font-size: 14px;
 }
 
-li {
+.menu-header li a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#item-active {
+    color: blue;
+}
+
+.container-menu {
+    width: 100%;
+    height: 60px;
+    background-color: #363636;
+    border-top: 5px solid #097204;
+    margin-top: 10px;
+}
+
+.menu {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 50px;
+}
+
+.menu li {
     list-style: none;
     display: inline-block;
-    padding: 0px 5px;
+    padding: 0px 10px;
+    position: relative;
+    color: #fff;
+    font-size: 16px;
+}
+
+.menu > li:last-child::after {
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 3px;
+    width: 1px;
+    background-color: #0467a9;
+    height: 38px;
+}
+
+.menu li ul {
+    min-width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 3px 3px 15px #cccccc98;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    display: none;
+}
+
+.menu li:hover ul {
+    display: block;
+}
+
+.menu li ul li {
+    width: 100%;
+    padding: 0 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.menu li li a {
+    color: #000;
+    font-size: 18px;
 }

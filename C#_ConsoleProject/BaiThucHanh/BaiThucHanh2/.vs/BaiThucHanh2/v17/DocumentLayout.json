@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{662032E5-D463-4763-BF9F-DBDB3E4EA621}|Bai3\\Bai3.csproj|d:\\desktop\\study\\study_semester4_2023-2024\\c#_consoleproject\\baithuchanh\\baithuchanh2\\bai3\\flightticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{662032E5-D463-4763-BF9F-DBDB3E4EA621}|Bai3\\Bai3.csproj|solutionrelative:bai3\\flightticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{671D8925-B03E-4935-868F-47C3CD6C8A0C}|Bai5\\Bai5.csproj|d:\\desktop\\study\\study_semester4_2023-2024\\c#_consoleproject\\baithuchanh\\baithuchanh2\\bai5\\fraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{671D8925-B03E-4935-868F-47C3CD6C8A0C}|Bai5\\Bai5.csproj|solutionrelative:bai5\\fraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FlightTicket.cs",
-              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai3\\FlightTicket.cs",
-              "RelativeDocumentMoniker": "Bai3\\FlightTicket.cs",
-              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai3\\FlightTicket.cs",
-              "RelativeToolTip": "Bai3\\FlightTicket.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
+              "Title": "Fraction.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai5\\Fraction.cs",
+              "RelativeDocumentMoniker": "Bai5\\Fraction.cs",
+              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai5\\Fraction.cs",
+              "RelativeToolTip": "Bai5\\Fraction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T08:19:17.338Z",
+              "WhenOpened": "2024-03-13T13:19:20.774Z",
               "EditorCaption": ""
             }
           ]

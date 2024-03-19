@@ -1,32 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Menu đa cấp</title>
-    <link rel="stylesheet" href="menu-dacap.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="menu-dacap.css" />
 </head>
+
 <body>
-    <div class="header">
-        <img src="images/Logo-Khoa-CNTT-NTU.png" alt="Ảnh">
-        <div class="search">
-            <input type="text" placeholder="Tìm kiếm ...">
-            <button>Search</button>
+    <div class="container-fluid">
+        <div class="header">
+            <img src="images/Logo-Khoa-CNTT-NTU.png" alt="" />
+            <div class="header-right">
+                <form class="search-item">
+                    <input type="text" placeholder="Search..." id="search" />
+                    <i class="bx bx-search"></i>
+                </form>
+                <ul class="menu-header">
+                    <li>
+                        <a id="item-active" href="#">
+                            Cán bộ
+                            <i class="bx bxs-left-arrow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"> Giảng viên
+                            <i class="bx bxs-left-arrow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"> Sinh viên
+                            <i class="bx bxs-left-arrow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"> Thư viện
+                            <i class="bx bxs-left-arrow"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
-    <div class="nav">
-        <ul>
-            <li>Trang chủ</li>
-            <li>Giới thiệu</li>
-            <li>Bộ môn</li>
-            <li>Đào tạo</li>
-            <li>Nghiên cứu Khoa học</li>
-            <li>Hợp tác</li>
-            <li>Chuyên trang</li>
-            <li>Tin tức</li>
-            <li>Sinh viên</li>
-            <li>Giảng viên</li>
+    <section class="container-menu">
+        <ul class="menu">
+            <li><a href="#">Trang chủ</a></li>
+            <li>
+                <a href="#"> Giới thiệu
+                    <i class="bx bx-chevron-down"></i>
+                </a>
+                <ul>
+                    <li><a href="#">Giới thiệu chung</a></li>
+                    <li><a href="#">Sứ mạng - Tầm nhìn</a></li>
+                    <li><a href="#">Cơ cấu tổ chức</a></li>
+                    <li><a href="#">Đội ngủ Giảng viên</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    Bộ môn
+                    <i class="bx bx-chevron-down"></i>
+                </a>
+                <ul>
+                    <li><a href="#">Kỹ thuật phần mềm</a></li>
+                    <li><a href="#">Mạng máy tính và truyền thông</a></li>
+                    <li><a href="#">Hệ thống thông tin</a></li>
+                    <li><a href="#">Toán</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    Đào tạo
+                    <i class="bx bx-chevron-down"></i>
+                </a>
+                <ul>
+                    <li>
+                        <a href="#">CTĐT Ngành Hệ thống thông tin quản lý</a>
+                    </li>
+                    <li><a href="#">CTĐT Ngành CNTT - POHE</a></li>
+                    <li><a href="#">CTĐT Thạc sĩ CNTT</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    Nghiên cứu Khoa học
+                    <i class="bx bx-chevron-down"></i>
+                </a>
+                <ul>
+                    <li><a href="#">Công bố khoa học</a></li>
+                    <li><a href="#">Đề tài - Dự án</a></li>
+                    <li><a href="#">Kết quả Hoạt động KHCN</a></li>
+                    <li><a href="#">NCKH-SV</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"> Hợp tác </a>
+            </li>
+            <li>
+                <a href="#">
+                    Chuyên trang
+                    <i class="bx bx-chevron-down"></i>
+                </a>
+                <ul>
+                    <li><a href="#">Trang vàng Olympic & ACM/ICPC</a></li>
+                    <li><a href="#">NTUCoder</a></li>
+                    <li><a href="#">IT-Challenge</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"> Tin tức </a>
+            </li>
+            <li>
+                <a href="#"> Sinh viên </a>
+            </li>
+            <li>
+                <a href="#"> Giảng viên </a>
+            </li>
         </ul>
-    </div>
+    </section>
 </body>
+
 </html>
