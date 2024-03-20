@@ -1,0 +1,15 @@
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\ChuDe5_VD\obj\Debug\net8.0\ChuDe5_VD.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\ChuDe5_VD\obj\Debug\net8.0\ChuDe5_VD.AssemblyInfoInputs.cache
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\ChuDe5_VD\obj\Debug\net8.0\ChuDe5_VD.AssemblyInfo.cs
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\ChuDe5_VD\obj\Debug\net8.0\ChuDe5_VD.csproj.CoreCompileInputs.cache
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\ChuDe5_VD\obj\Debug\net8.0\ChuDe5_VD.sourcelink.json
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\ChuDe5_VD\bin\Debug\net8.0\ChuDe5_VD.exe
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\ChuDe5_VD\bin\Debug\net8.0\ChuDe5_VD.deps.json
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\ChuDe5_VD\bin\Debug\net8.0\ChuDe5_VD.runtimeconfig.json
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\ChuDe5_VD\bin\Debug\net8.0\ChuDe5_VD.dll
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\ChuDe5_VD\bin\Debug\net8.0\ChuDe5_VD.pdb
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\ChuDe5_VD\obj\Debug\net8.0\ChuDe5_VD.dll
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\ChuDe5_VD\obj\Debug\net8.0\refint\ChuDe5_VD.dll
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\ChuDe5_VD\obj\Debug\net8.0\ChuDe5_VD.pdb
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\ChuDe5_VD\obj\Debug\net8.0\ChuDe5_VD.genruntimeconfig.cache
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\ChuDe5_VD\obj\Debug\net8.0\ref\ChuDe5_VD.dll

@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\ChuDe5_VD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5CBD24-D3B6-463E-8E99-930A67382AA2}|ChuDe5_VD.csproj|d:\\desktop\\study\\study_semester4_2023-2024\\c#_consoleproject\\thuchanh\\chude5_vd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5CBD24-D3B6-463E-8E99-930A67382AA2}|ChuDe5_VD.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5CBD24-D3B6-463E-8E99-930A67382AA2}|ChuDe5_VD.csproj|d:\\desktop\\study\\study_semester4_2023-2024\\c#_consoleproject\\thuchanh\\chude5_vd\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5CBD24-D3B6-463E-8E99-930A67382AA2}|ChuDe5_VD.csproj|solutionrelative:nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5CBD24-D3B6-463E-8E99-930A67382AA2}|ChuDe5_VD.csproj|d:\\desktop\\study\\study_semester4_2023-2024\\c#_consoleproject\\thuchanh\\chude5_vd\\giaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5CBD24-D3B6-463E-8E99-930A67382AA2}|ChuDe5_VD.csproj|solutionrelative:giaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5CBD24-D3B6-463E-8E99-930A67382AA2}|ChuDe5_VD.csproj|d:\\desktop\\study\\study_semester4_2023-2024\\c#_consoleproject\\thuchanh\\chude5_vd\\canbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5CBD24-D3B6-463E-8E99-930A67382AA2}|ChuDe5_VD.csproj|solutionrelative:canbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CanBo.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\ChuDe5_VD\\CanBo.cs",
+              "RelativeDocumentMoniker": "CanBo.cs",
+              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\ChuDe5_VD\\CanBo.cs",
+              "RelativeToolTip": "CanBo.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAEEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T07:17:14.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\ChuDe5_VD\\NhanVien.cs",
+              "RelativeDocumentMoniker": "NhanVien.cs",
+              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\ChuDe5_VD\\NhanVien.cs",
+              "RelativeToolTip": "NhanVien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T07:17:34.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GiaoVien.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\ChuDe5_VD\\GiaoVien.cs",
+              "RelativeDocumentMoniker": "GiaoVien.cs",
+              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\ChuDe5_VD\\GiaoVien.cs",
+              "RelativeToolTip": "GiaoVien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T07:16:53.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\ChuDe5_VD\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\ChuDe5_VD\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAmwC4AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T07:11:58.964Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
