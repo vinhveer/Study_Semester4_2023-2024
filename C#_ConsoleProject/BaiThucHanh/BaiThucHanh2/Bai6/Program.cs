@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bai6
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
@@ -20,10 +20,10 @@ namespace Bai6
 
             // In ra màn hình thông tin tọa độ 2 điểm và khoảng cách giữa 2 điểm
             Console.WriteLine("Thông tin điểm 1:");
-            point1.InThongTin();
+            point1.PrintInfo();
 
             Console.WriteLine("Thông tin điểm 2:");
-            point2.InThongTin();
+            point2.PrintInfo();
 
             double khoangCach = point1.TinhKhoangCach(point2);
             Console.WriteLine($"Khoảng cách giữa 2 điểm: {khoangCach}");

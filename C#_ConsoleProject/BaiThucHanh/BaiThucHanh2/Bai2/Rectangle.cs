@@ -55,7 +55,7 @@ namespace Bai2
 
         public void Show()
         {
-            Console.WriteLine("Rectangle: {0}x{1}, Area: {2}, Perimeter: {3}", width, height, Area(), Perimeter());
+            Console.WriteLine($"Rectangle: {width}x{height}, Area: {Area()}, Perimeter: {Perimeter()}");
         }
     }
 }

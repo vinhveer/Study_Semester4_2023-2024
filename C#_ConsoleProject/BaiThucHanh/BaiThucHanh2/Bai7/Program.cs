@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Bai7
 {
@@ -13,21 +10,21 @@ namespace Bai7
             Console.InputEncoding = Encoding.Unicode;
             Console.OutputEncoding = Encoding.Unicode;
 
-            // Nhập thông tin 1 người (dùng phương thức khởi tạo)
-            Console.Write("Nhập họ tên: ");
-            string hoTen = Console.ReadLine();
+            // Enter information for a person (using constructor)
+            Console.Write("Enter full name: ");
+            string fullName = Console.ReadLine();
 
-            Console.Write("Nhập cân nặng (kg): ");
-            double canNang = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter weight (kg): ");
+            double weight = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("Nhập chiều cao (m): ");
-            double chieuCao = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter height (m): ");
+            double height = Convert.ToDouble(Console.ReadLine());
 
-            // Tạo đối tượng Adult
-            Adult nguoi = new Adult(hoTen, canNang, chieuCao);
+            // Create an Adult object
+            Adult person = new Adult(fullName, weight, height);
 
-            // Xuất thông tin người vừa nhập và tình trạng sức khỏe người đó ra màn hình
-            nguoi.XuatThongTin();
+            // Display the entered information and the person's health status
+            person.DisplayInformation();
         }
     }
 }

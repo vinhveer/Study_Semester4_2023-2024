@@ -8,90 +8,90 @@ namespace Bai7
 {
     class Adult
     {
-        private string hoTen;
-        private double canNang;
-        private double chieuCao;
+        private string fullName;
+        private double weight;
+        private double height;
 
-        // Khởi tạo không tham số
+        // Default constructor
         public Adult()
         {
-            hoTen = "";
-            canNang = 0;
-            chieuCao = 0;
+            fullName = "";
+            weight = 0;
+            height = 0;
         }
 
-        // Khởi tạo có tham số
-        public Adult(string hoTen, double canNang, double chieuCao)
+        // Parameterized constructor
+        public Adult(string fullName, double weight, double height)
         {
-            this.hoTen = hoTen;
-            this.canNang = canNang;
-            this.chieuCao = chieuCao;
+            this.fullName = fullName;
+            this.weight = weight;
+            this.height = height;
         }
 
-        // Khởi tạo sao chép
+        // Copy constructor
         public Adult(Adult other)
         {
-            hoTen = other.hoTen;
-            canNang = other.canNang;
-            chieuCao = other.chieuCao;
+            fullName = other.fullName;
+            weight = other.weight;
+            height = other.height;
         }
 
-        // Xuất ra màn hình thông tin người và tình trạng sức khỏe theo chỉ số BMI
-        public void XuatThongTin()
+        // Display person information and health status based on BMI index
+        public void DisplayInformation()
         {
             Console.OutputEncoding = Encoding.UTF8;
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.ForegroundColor = ConsoleColor.White;
 
             Console.Clear();
-            Console.WriteLine("Thông tin người:");
-            Console.WriteLine($"Họ tên: {hoTen}");
-            Console.WriteLine($"Cân nặng: {canNang} kg");
-            Console.WriteLine($"Chiều cao: {chieuCao} m");
+            Console.WriteLine("Person information:");
+            Console.WriteLine($"Full name: {fullName}");
+            Console.WriteLine($"Weight: {weight} kg");
+            Console.WriteLine($"Height: {height} m");
 
-            double bmi = TinhBMI();
-            Console.WriteLine($"Chỉ số BMI: {bmi}");
+            double bmi = CalculateBMI();
+            Console.WriteLine($"BMI index: {bmi}");
 
             if (bmi < 18.5)
             {
-                Console.WriteLine("Tình trạng sức khỏe: Thiếu cân");
-                double canTang = CanTangCanNang(18.5);
-                Console.WriteLine($"Cần tăng cân: {canTang} kg");
+                Console.WriteLine("Health status: Underweight");
+                double weightToGain = CalculateWeightToGain(18.5);
+                Console.WriteLine($"Weight to gain: {weightToGain} kg");
             }
             else if (bmi >= 18.5 && bmi < 24.9)
             {
-                Console.WriteLine("Tình trạng sức khỏe: Bình thường");
+                Console.WriteLine("Health status: Normal");
             }
             else if (bmi >= 24.9 && bmi < 29.9)
             {
-                Console.WriteLine("Tình trạng sức khỏe: Thừa cân");
-                double canGiam = CanGiamCanNang(24.9);
-                Console.WriteLine($"Cần giảm cân: {canGiam} kg");
+                Console.WriteLine("Health status: Overweight");
+                double weightToLose = CalculateWeightToLose(24.9);
+                Console.WriteLine($"Weight to lose: {weightToLose} kg");
             }
             else
             {
-                Console.WriteLine("Tình trạng sức khỏe: Béo phì");
-                double canGiam = CanGiamCanNang(24.9);
-                Console.WriteLine($"Cần giảm cân: {canGiam} kg");
+                Console.WriteLine("Health status: Obese");
+                double weightToLose = CalculateWeightToLose(24.9);
+                Console.WriteLine($"Weight to lose: {weightToLose} kg");
             }
         }
 
-        // Tính chỉ số BMI
-        private double TinhBMI()
+        // Calculate BMI index
+        private double CalculateBMI()
         {
-            return canNang / (chieuCao * chieuCao);
+            return weight / (height * height);
         }
 
-        // Tính số cân cần tăng để có sức khỏe tốt
-        private double CanTangCanNang(double bmiMucTieu)
+        // Calculate weight to gain for good health
+        private double CalculateWeightToGain(double targetBMI)
         {
-            return bmiMucTieu * chieuCao * chieuCao - canNang;
+            return targetBMI * height * height - weight;
         }
 
-        // Tính số cân cần giảm để có sức khỏe tốt
-        private double CanGiamCanNang(double bmiMucTieu)
+        // Calculate weight to lose for good health
+        private double CalculateWeightToLose(double targetBMI)
         {
-            return canNang - bmiMucTieu * chieuCao * chieuCao;
+            return weight - targetBMI * height * height;
         }
     }
 }

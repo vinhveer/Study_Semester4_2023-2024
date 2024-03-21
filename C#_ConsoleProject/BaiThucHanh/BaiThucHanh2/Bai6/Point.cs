@@ -11,28 +11,28 @@ namespace Bai6
         private int x;
         private int y;
 
-        // Thiết lập không tham số
+        // Default constructor
         public Point()
         {
             x = 0;
             y = 0;
         }
 
-        // Khởi tạo có tham số
+        // Parameterized constructor
         public Point(int x, int y)
         {
             this.x = x;
             this.y = y;
         }
 
-        // In ra màn hình thông tin tọa độ điểm
-        public void InThongTin()
+        // Print the coordinates of the point to the console
+        public void PrintInfo()
         {
-            Console.WriteLine($"Tọa độ điểm: ({x},{y})");
+            Console.WriteLine($"Point coordinates: ({x},{y})");
         }
 
-        // Tính khoảng cách giữa 2 điểm
-        public double TinhKhoangCach(Point otherPoint)
+        // Calculate the distance between two points
+        public double CalculateDistance(Point otherPoint)
         {
             int deltaX = this.x - otherPoint.x;
             int deltaY = this.y - otherPoint.y;

@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{671D8925-B03E-4935-868F-47C3CD6C8A0C}|Bai5\\Bai5.csproj|d:\\desktop\\study\\study_semester4_2023-2024\\c#_consoleproject\\baithuchanh\\baithuchanh2\\bai5\\fraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{671D8925-B03E-4935-868F-47C3CD6C8A0C}|Bai5\\Bai5.csproj|solutionrelative:bai5\\fraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3AEB2C59-54A2-424F-ADEA-9963F344BF31}|Bai7\\Bai7.csproj|d:\\desktop\\study\\study_semester4_2023-2024\\c#_consoleproject\\baithuchanh\\baithuchanh2\\bai7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AEB2C59-54A2-424F-ADEA-9963F344BF31}|Bai7\\Bai7.csproj|solutionrelative:bai7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AEB2C59-54A2-424F-ADEA-9963F344BF31}|Bai7\\Bai7.csproj|D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\bai7\\adult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AEB2C59-54A2-424F-ADEA-9963F344BF31}|Bai7\\Bai7.csproj|solutionrelative:bai7\\adult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662032E5-D463-4763-BF9F-DBDB3E4EA621}|Bai3\\Bai3.csproj|D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\bai3\\flightticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662032E5-D463-4763-BF9F-DBDB3E4EA621}|Bai3\\Bai3.csproj|solutionrelative:bai3\\flightticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662032E5-D463-4763-BF9F-DBDB3E4EA621}|Bai3\\Bai3.csproj|D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\bai3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662032E5-D463-4763-BF9F-DBDB3E4EA621}|Bai3\\Bai3.csproj|solutionrelative:bai3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BD248C5-E094-4386-B9FA-F1467148336C}|Bai2\\Bai2.csproj|D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\bai2\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BD248C5-E094-4386-B9FA-F1467148336C}|Bai2\\Bai2.csproj|solutionrelative:bai2\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BD248C5-E094-4386-B9FA-F1467148336C}|Bai2\\Bai2.csproj|D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\bai2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BD248C5-E094-4386-B9FA-F1467148336C}|Bai2\\Bai2.csproj|solutionrelative:bai2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +39,76 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Fraction.cs",
-              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai5\\Fraction.cs",
-              "RelativeDocumentMoniker": "Bai5\\Fraction.cs",
-              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai5\\Fraction.cs",
-              "RelativeToolTip": "Bai5\\Fraction.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAoAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai7\\Program.cs",
+              "RelativeDocumentMoniker": "Bai7\\Program.cs",
+              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai7\\Program.cs",
+              "RelativeToolTip": "Bai7\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T13:19:20.774Z",
+              "WhenOpened": "2024-03-20T04:16:33.348Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Adult.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai7\\Adult.cs",
+              "RelativeDocumentMoniker": "Bai7\\Adult.cs",
+              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai7\\Adult.cs",
+              "RelativeToolTip": "Bai7\\Adult.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:16:32.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai3\\Program.cs",
+              "RelativeDocumentMoniker": "Bai3\\Program.cs",
+              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai3\\Program.cs",
+              "RelativeToolTip": "Bai3\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T02:56:24.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FlightTicket.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai3\\FlightTicket.cs",
+              "RelativeDocumentMoniker": "Bai3\\FlightTicket.cs",
+              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai3\\FlightTicket.cs",
+              "RelativeToolTip": "Bai3\\FlightTicket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T02:56:11.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai2\\Program.cs",
+              "RelativeDocumentMoniker": "Bai2\\Program.cs",
+              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai2\\Program.cs",
+              "RelativeToolTip": "Bai2\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T02:54:46.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Rectangle.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai2\\Rectangle.cs",
+              "RelativeDocumentMoniker": "Bai2\\Rectangle.cs",
+              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai2\\Rectangle.cs",
+              "RelativeToolTip": "Bai2\\Rectangle.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T02:54:43.166Z"
             }
           ]
         }

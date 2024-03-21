@@ -1,102 +1,88 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Bai5
 {
     internal class Fraction
     {
-        private int tuSo;
-        private int mauSo;
+        private int numerator;
+        private int denominator;
 
         public Fraction()
         {
-            // Thiết lập không tham số
-            tuSo = 0;
-            mauSo = 1;
+            numerator = 0;
+            denominator = 1;
         }
 
-        public Fraction(int tu, int mau)
+        public Fraction(int num, int denom)
         {
-            // Thiết lập có tham số
-            tuSo = tu;
-            mauSo = mau != 0 ? mau : 1;
+            numerator = num;
+            denominator = denom != 0 ? denom : 1;
         }
 
-        public Fraction(Fraction Fraction)
+        public Fraction(Fraction fraction)
         {
-            // Sao chép phân số
-            tuSo = Fraction.tuSo;
-            mauSo = Fraction.mauSo;
+            numerator = fraction.numerator;
+            denominator = fraction.denominator;
         }
 
-        public Fraction Cong(Fraction ps)
+        public Fraction Add(Fraction fraction)
         {
-            // Cộng hai phân số
-            int tu = tuSo * ps.mauSo + ps.tuSo * mauSo;
-            int mau = mauSo * ps.mauSo;
-            return RutGon(new Fraction(tu, mau));
+            int num = numerator * fraction.denominator + fraction.numerator * denominator;
+            int denom = denominator * fraction.denominator;
+            return Simplify(new Fraction(num, denom));
         }
 
-        public Fraction Tru(Fraction ps)
+        public Fraction Subtract(Fraction fraction)
         {
-            // Trừ hai phân số
-            int tu = tuSo * ps.mauSo - ps.tuSo * mauSo;
-            int mau = mauSo * ps.mauSo;
-            return RutGon(new Fraction(tu, mau));
+            int num = numerator * fraction.denominator - fraction.numerator * denominator;
+            int denom = denominator * fraction.denominator;
+            return Simplify(new Fraction(num, denom));
         }
 
-        public Fraction Nhan(Fraction ps)
+        public Fraction Multiply(Fraction fraction)
         {
-            // Nhân hai phân số
-            int tu = tuSo * ps.tuSo;
-            int mau = mauSo * ps.mauSo;
-            return RutGon(new Fraction(tu, mau));
+            int num = numerator * fraction.numerator;
+            int denom = denominator * fraction.denominator;
+            return Simplify(new Fraction(num, denom));
         }
 
-        public Fraction Chia(Fraction ps)
+        public Fraction Divide(Fraction fraction)
         {
-            // Chia hai phân số
-            if (ps.tuSo == 0)
+            if (fraction.numerator == 0)
             {
-                Console.WriteLine("Không thể chia cho phân số có tử số bằng 0.");
+                Console.WriteLine("Cannot divide by a fraction with numerator equal to 0.");
                 return null;
             }
 
-            int tu = tuSo * ps.mauSo;
-            int mau = mauSo * ps.tuSo;
-            return RutGon(new Fraction(tu, mau));
+            int num = numerator * fraction.denominator;
+            int denom = denominator * fraction.numerator;
+            return Simplify(new Fraction(num, denom));
         }
 
-        private int UCLN(int a, int b)
+        private int GCD(int a, int b)
         {
-            // Tìm ước chung lớn nhất
             a = Math.Abs(a);
             b = Math.Abs(b);
             while (b != 0)
             {
-                int r = a % b;
+                int remainder = a % b;
                 a = b;
-                b = r;
+                b = remainder;
             }
             return a;
         }
 
-        private Fraction RutGon(Fraction ps)
+        private Fraction Simplify(Fraction fraction)
         {
-            // Rút gọn phân số về dạng tối giản
-            int ucln = UCLN(ps.tuSo, ps.mauSo);
-            ps.tuSo /= ucln;
-            ps.mauSo /= ucln;
-            return ps;
+            int gcd = GCD(fraction.numerator, fraction.denominator);
+            fraction.numerator /= gcd;
+            fraction.denominator /= gcd;
+            return fraction;
         }
 
-        public void Xuat()
+        public void Display()
         {
-            // Xuất phân số dạng tử số/mẫu số
-            Console.WriteLine($"{tuSo}/{mauSo}");
+            Console.WriteLine($"{numerator}/{denominator}");
         }
     }
 }

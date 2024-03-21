@@ -1,10 +1,109 @@
-﻿DROP DATABASE BookStore;
+﻿USE demo;
+GO
+
+DROP DATABASE IF EXISTS BookStore;
+GO
 
 CREATE DATABASE BookStore;
+GO
 
 USE BookStore;
+GO
 
--- Chủ thể: Con người
+DROP TABLE IF EXISTS stock_out_details;
+GO
+
+DROP TABLE IF EXISTS stock_in_details;
+GO
+
+DROP TABLE IF EXISTS stock_out;
+GO
+
+DROP TABLE IF EXISTS stock_in;
+GO
+
+DROP TABLE IF EXISTS payments_on;
+GO
+
+DROP TABLE IF EXISTS payments_off;
+GO
+
+DROP TABLE IF EXISTS order_details_on;
+GO
+
+DROP TABLE IF EXISTS order_details_off;
+GO
+
+DROP TABLE IF EXISTS orders_online;
+GO
+
+DROP TABLE IF EXISTS customers;
+GO
+
+DROP TABLE IF EXISTS orders_offline;
+GO
+
+DROP TABLE IF EXISTS others_products;
+GO
+
+DROP TABLE IF EXISTS brands;
+GO
+
+DROP TABLE IF EXISTS book_author;
+GO
+
+DROP TABLE IF EXISTS books;
+GO
+
+DROP TABLE IF EXISTS author;
+GO
+
+DROP TABLE IF EXISTS book_languages;
+GO
+
+DROP TABLE IF EXISTS book_publishers;
+GO
+
+DROP TABLE IF EXISTS book_categories;
+GO
+
+DROP TABLE IF EXISTS products;
+GO
+
+DROP TABLE IF EXISTS suppliers;
+GO
+
+DROP TABLE IF EXISTS product_categories;
+GO
+
+DROP TABLE IF EXISTS employee_attendance;
+GO
+
+DROP TABLE IF EXISTS employee_salary;
+GO
+
+DROP TABLE IF EXISTS salary_coefficient;
+GO
+
+DROP TABLE IF EXISTS employees;
+GO
+
+DROP TABLE IF EXISTS education_level;
+GO
+
+DROP TABLE IF EXISTS user_accounts;
+GO
+
+DROP TABLE IF EXISTS user_roles;
+GO
+
+DROP TABLE IF EXISTS roles;
+GO
+
+DROP TABLE IF EXISTS users;
+GO
+
+
 CREATE TABLE users (
     user_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi người dùng
     first_name NVARCHAR(15) NOT NULL, -- Tên
@@ -17,11 +116,13 @@ CREATE TABLE users (
     email VARCHAR(255) NOT NULL, -- Địa chỉ email
     image_user NVARCHAR(MAX) -- Tên name ảnh đại diện
 );
+GO
 
 CREATE TABLE roles (
     role_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi vai trò
     role_name NVARCHAR(255) NOT NULL -- Tên của vai trò
 );
+GO
 
 CREATE TABLE user_roles (
     user_role_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi quyền của người dùng
@@ -30,6 +131,7 @@ CREATE TABLE user_roles (
     FOREIGN KEY (user_id) REFERENCES users (user_id),
     FOREIGN KEY (role_id) REFERENCES roles (role_id)
 );
+GO
 
 CREATE TABLE user_accounts (
     account_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi tài khoản người dùng
@@ -38,30 +140,32 @@ CREATE TABLE user_accounts (
     user_role_id BIGINT NOT NULL, -- ID của quyền người dùng
     FOREIGN KEY (user_role_id) REFERENCES user_roles (user_role_id)
 );
+GO
 
--- Chủ thể: Nhân viên
--- Trình độ học vấn
 CREATE TABLE education_level(
     education_level_id INT IDENTITY(1,1) PRIMARY KEY,
     education_level_name NVARCHAR(50) NOT NULL
 );
+GO
 
 CREATE TABLE employees (
     employee_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi nhân viên
     user_id BIGINT NOT NULL, -- ID của người dùng (nhân viên)
     education_level_id INT NOT NULL, -- Trình độ học vấn
-    work_start_date DATE NOT NULL, -- Ngày làm việc
+    work_date DATE NOT NULL, -- Ngày làm việc
     FOREIGN KEY (user_id) REFERENCES users (user_id),
     FOREIGN KEY (education_level_id) REFERENCES education_level (education_level_id)
 );
+GO
 
-CREATE TABLE salary_coefficient(
+CREATE TABLE salary_coefficient (
     salary_coefficient_id BIGINT IDENTITY(1,1) PRIMARY KEY,
     salary_coefficient_value DECIMAL(10, 3) NOT NULL, -- Hệ số lương
     update_coefficient_date DATETIME NOT NULL, -- Ngày cập nhật hệ số lương
     role_id BIGINT NOT NULL,
     FOREIGN KEY (role_id) REFERENCES roles (role_id)
-)
+);
+GO
 
 CREATE TABLE employee_salary (
     employee_salary_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi bảng lương nhân viên
@@ -72,6 +176,7 @@ CREATE TABLE employee_salary (
     FOREIGN KEY (employee_id) REFERENCES employees (employee_id),
     FOREIGN KEY (salary_coefficient_id) REFERENCES salary_coefficient (salary_coefficient_id)
 );
+GO
 
 CREATE TABLE employee_attendance (
     employee_attendance_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi bảng chấm công nhân viên
@@ -79,18 +184,20 @@ CREATE TABLE employee_attendance (
     attendance_date DATE NOT NULL, -- Ngày chấm công
     FOREIGN KEY (employee_id) REFERENCES employees (employee_id)
 );
+GO
 
--- Chủ thể: Sản phẩm
 CREATE TABLE product_categories (
     category_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi danh mục sản phẩm
     category_name NVARCHAR(255) NOT NULL -- Tên của danh mục sản phẩm
 );
+GO
 
 CREATE TABLE suppliers (
     supplier_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi nhà cung cấp
     supplier_name NVARCHAR(MAX) NOT NULL, -- Tên nhà cung cấp
     supplier_origin NVARCHAR(255) NOT NULL -- Nguồn gốc của nhà cung cấp
 );
+GO
 
 CREATE TABLE products (
     product_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi sản phẩm
@@ -103,24 +210,34 @@ CREATE TABLE products (
     FOREIGN KEY (category_id) REFERENCES product_categories (category_id),
     FOREIGN KEY (supplier_id) REFERENCES suppliers (supplier_id)
 );
+GO
 
 CREATE TABLE book_categories (
     book_category_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi danh mục sách
     book_category_name NVARCHAR(MAX) NOT NULL -- Tên của danh mục sách
 );
+GO
 
 CREATE TABLE book_publishers (
     book_publisher_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi nhà xuất bản
     book_publisher_name NVARCHAR(MAX) NOT NULL -- Tên nhà xuất bản
 );
+GO
 
 CREATE TABLE book_languages (
     book_language_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi ngôn ngữ sách
     book_language NVARCHAR(MAX) NOT NULL -- Ngôn ngữ của sách
 );
+GO
+
+CREATE TABLE author (
+    author_id BIGINT IDENTITY(1,1) PRIMARY KEY,
+    author_name NVARCHAR (255) NOT NULL
+);
+GO
 
 CREATE TABLE books (
-    book_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi sách
+    product_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi sách
     book_name NVARCHAR(MAX) NOT NULL, -- Tên sách
     book_category_id BIGINT NOT NULL, -- ID của danh mục sách
     book_description NVARCHAR(MAX) NOT NULL, -- Mô tả sách
@@ -129,21 +246,32 @@ CREATE TABLE books (
     book_packaging_size VARCHAR(15) NOT NULL, -- Kích thước đóng gói sách
     book_format_id VARCHAR(50) NOT NULL, -- Định dạng sách
     book_publisher_id BIGINT NOT NULL, -- ID của nhà xuất bản
-    book_author_name NVARCHAR(MAX) NOT NULL ,-- Tên của tác giả sách
+    book_author_id NVARCHAR(MAX) NOT NULL ,-- Tên của tác giả sách
     FOREIGN KEY (book_category_id) REFERENCES book_categories (book_category_id),
     FOREIGN KEY (book_language_id) REFERENCES book_languages (book_language_id),
     FOREIGN KEY (book_publisher_id) REFERENCES book_publishers (book_publisher_id),
-    FOREIGN KEY (book_id) REFERENCES products (product_id)
+    FOREIGN KEY (product_id) REFERENCES products (product_id)
 );
+GO
+
+CREATE TABLE book_author (
+    author_id BIGINT NOT NULL,
+    product_id BIGINT NOT NULL,
+    PRIMARY KEY (author_id,product_id),
+    FOREIGN KEY (author_id) REFERENCES author(author_id),
+    FOREIGN KEY (product_id) REFERENCES books(product_id),
+);
+GO
 
 CREATE TABLE brands (
     brand_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi thương hiệu
     brand_name NVARCHAR(MAX) NOT NULL, -- Tên thương hiệu
     brand_origin NVARCHAR(MAX) NOT NULL -- Xuất xứ thương hiệu
 );
+GO
 
 CREATE TABLE others_products (
-    others_product_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi sản phẩm khác
+    product_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi sản phẩm khác
     others_product_name NVARCHAR(MAX) NOT NULL, -- Tên sản phẩm khác
     others_product_description NVARCHAR(MAX) NOT NULL, -- Mô tả sản phẩm khác
     others_product_brand_id BIGINT NOT NULL, -- ID của thương hiệu sản phẩm khác
@@ -151,71 +279,77 @@ CREATE TABLE others_products (
     others_product_material NVARCHAR(MAX) NOT NULL, -- Chất liệu sản phẩm khác
     others_product_weight INT NOT NULL, -- Trọng lượng sản phẩm khác
     FOREIGN KEY (others_product_brand_id) REFERENCES brands (brand_id),
-    FOREIGN KEY (others_product_id) REFERENCES products (product_id)
-);
-
--- Mua hàng
-
-CREATE TABLE order_details (
-    order_detail_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi chi tiết đơn đặt hàng
-    product_id BIGINT NOT NULL, -- ID của sản phẩm
-    quantity INT NOT NULL, -- Số lượng sản phẩm
-    discount DECIMAL(10, 3), -- Giảm giá
     FOREIGN KEY (product_id) REFERENCES products (product_id)
 );
+GO
 
-CREATE TABLE payments (
-    payment_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi thanh toán
-    payment_date DATE NOT NULL, -- Ngày thanh toán
-    payment_method NVARCHAR(50) NOT NULL, -- Phương thức thanh toán
-    amount DECIMAL(10, 3) NOT NULL, -- Số tiền thanh toán
-    status_pay NVARCHAR(20) NOT NULL -- Trạng thái thanh toán
-);
-
--- Mua hàng trực tiếp
 CREATE TABLE orders_offline (
     order_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi đơn đặt hàng
     order_date_off DATE NOT NULL, -- Ngày đặt hàng
     total_amount_off DECIMAL(10, 3) NOT NULL, -- Tổng số tiền
-    payment_id BIGINT NOT NULL,
     note_off NVARCHAR(255),
-    FOREIGN KEY (payment_id) REFERENCES payments (payment_id)
 );
+GO
 
-
--- Mua hàng online
 CREATE TABLE customers (
     customer_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi khách hàng
     user_id BIGINT NOT NULL, -- ID của người dùng
     FOREIGN KEY (user_id) REFERENCES users (user_id)
 );
+GO
 
 CREATE TABLE orders_online (
     order_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi đơn đặt hàng
     customer_id BIGINT NOT NULL, -- ID của người dùng đặt hàng
     order_date_on DATE NOT NULL, -- Ngày đặt hàng
     total_amount_on DECIMAL(10, 3) NOT NULL, -- Tổng số tiền
-    payment_id BIGINT NOT NULL, -- Thanh toán
     status_on NVARCHAR(20) CHECK (status_on IN ('Pending', 'Confirmed', 'Shipped', 'Completed')), -- Trạng thái đơn đặt hàng
     note_on NVARCHAR(255),
     FOREIGN KEY (customer_id) REFERENCES customers (customer_id),
-    FOREIGN KEY (payment_id) REFERENCES payments (payment_id)
 );
+GO
 
-CREATE TABLE order_list_on (
-    order_id BIGINT NOT NULL, -- ID của đơn hàng
-    order_detail_id BIGINT NOT NULL, -- ID của chi tiết đơn hàng
-    PRIMARY KEY (order_id, order_detail_id), -- Thiết lập khóa chính gồm cả hai trường
-    FOREIGN KEY (order_id) REFERENCES orders_online (order_id) ON DELETE CASCADE, -- Tham chiếu đến đơn hàng online
-    FOREIGN KEY (order_detail_id) REFERENCES order_details (order_detail_id) ON DELETE CASCADE -- Tham chiếu đến chi tiết đơn hàng
+CREATE TABLE order_details_off (
+    order_id BIGINT NOT NULL, -- ID duy nhất cho mỗi chi tiết đơn đặt hàng
+    product_id BIGINT NOT NULL, -- ID của sản phẩm
+    quantity INT NOT NULL, -- Số lượng sản phẩm
+    discount DECIMAL(10, 3), -- Giảm giá
+    FOREIGN KEY (order_id) REFERENCES orders_offline (order_id),
+    FOREIGN KEY (product_id) REFERENCES products (product_id)
 );
-CREATE TABLE order_list_off (
-    order_id BIGINT NOT NULL, -- ID của đơn hàng
-    order_detail_id BIGINT NOT NULL, -- ID của chi tiết đơn hàng
-    PRIMARY KEY (order_id, order_detail_id), -- Thiết lập khóa chính gồm cả hai trường
-    FOREIGN KEY (order_id) REFERENCES orders_offline (order_id) ON DELETE CASCADE, -- Tham chiếu đến đơn hàng offline
-    FOREIGN KEY (order_detail_id) REFERENCES order_details (order_detail_id) ON DELETE CASCADE -- Tham chiếu đến chi tiết đơn hàng
+GO
+
+CREATE TABLE order_details_on (
+    order_id BIGINT NOT NULL, -- ID duy nhất cho mỗi chi tiết đơn đặt hàng
+    product_id BIGINT NOT NULL, -- ID của sản phẩm
+    quantity INT NOT NULL, -- Số lượng sản phẩm
+    discount DECIMAL(10, 3), -- Giảm giá
+    FOREIGN KEY (order_id) REFERENCES orders_online (order_id),
+    FOREIGN KEY (product_id) REFERENCES products (product_id)
 );
+GO
+
+CREATE TABLE payments_off(
+    payment_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi thanh toán
+    order_id BIGINT NOT NULL,
+    payment_date DATE NOT NULL, -- Ngày thanh toán
+    payment_method NVARCHAR(50) NOT NULL, -- Phương thức thanh toán
+    amount DECIMAL(10, 3) NOT NULL, -- Số tiền thanh toán
+    status_pay NVARCHAR(20) NOT NULL, -- Trạng thái thanh toán
+    FOREIGN KEY (order_id) REFERENCES orders_offline (order_id)
+);
+GO
+
+CREATE TABLE payments_on(
+    payment_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi thanh toán
+    order_id BIGINT NOT NULL,
+    payment_date DATE NOT NULL, -- Ngày thanh toán
+    payment_method NVARCHAR(50) NOT NULL, -- Phương thức thanh toán
+    amount DECIMAL(10, 3) NOT NULL, -- Số tiền thanh toán
+    status_pay NVARCHAR(20) NOT NULL, -- Trạng thái thanh toán
+    FOREIGN KEY (order_id) REFERENCES orders_online (order_id)
+);
+GO
 
 -- Bảng Nhập kho
 CREATE TABLE stock_in (
@@ -226,7 +360,8 @@ CREATE TABLE stock_in (
     note_in NVARCHAR(MAX), -- Ghi chú
     FOREIGN KEY (employee_id) REFERENCES users (user_id)
 );
--- Bảng Xuất kho
+GO
+
 CREATE TABLE stock_out (
 	stock_out_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID của phiếu xuất kho, tự tăng
 	outflow_date DATE NOT NULL,
@@ -235,6 +370,7 @@ CREATE TABLE stock_out (
     note_out NVARCHAR(MAX), -- Ghi chú
     FOREIGN KEY (employee_id) REFERENCES users (user_id)
 );
+GO
 
 -- Bảng Chi tiết nhập hàng
 CREATE TABLE stock_in_details (
@@ -246,6 +382,7 @@ CREATE TABLE stock_in_details (
 	FOREIGN KEY (stock_in_id) REFERENCES stock_in(stock_in_id), -- Khóa ngoại liên kết với bảng phiếu nhập kho
 	FOREIGN KEY (product_id) REFERENCES products(product_id) -- Khóa ngoại liên kết với bảng sản phẩm
 );
+GO
 
 --Bảng Chi tiết xuất hàng
 CREATE TABLE stock_out_details (
@@ -257,3 +394,4 @@ CREATE TABLE stock_out_details (
 	FOREIGN KEY (product_id) REFERENCES products(product_id), -- Khóa ngoại liên kết với bảng sản phẩm
 	FOREIGN KEY (stock_out_id) REFERENCES stock_out(stock_out_id) -- Khóa ngoại liên kết với bảng phiếu xuất kho
 );
+GO
