@@ -1,0 +1,15 @@
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\MutipleChoice\bin\Debug\net8.0\MutipleChoice.exe
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\MutipleChoice\bin\Debug\net8.0\MutipleChoice.deps.json
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\MutipleChoice\bin\Debug\net8.0\MutipleChoice.runtimeconfig.json
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\MutipleChoice\bin\Debug\net8.0\MutipleChoice.dll
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\MutipleChoice\bin\Debug\net8.0\MutipleChoice.pdb
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\MutipleChoice\obj\Debug\net8.0\MutipleChoice.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\MutipleChoice\obj\Debug\net8.0\MutipleChoice.AssemblyInfoInputs.cache
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\MutipleChoice\obj\Debug\net8.0\MutipleChoice.AssemblyInfo.cs
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\MutipleChoice\obj\Debug\net8.0\MutipleChoice.csproj.CoreCompileInputs.cache
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\MutipleChoice\obj\Debug\net8.0\MutipleChoice.sourcelink.json
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\MutipleChoice\obj\Debug\net8.0\MutipleChoice.dll
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\MutipleChoice\obj\Debug\net8.0\refint\MutipleChoice.dll
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\MutipleChoice\obj\Debug\net8.0\MutipleChoice.pdb
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\MutipleChoice\obj\Debug\net8.0\MutipleChoice.genruntimeconfig.cache
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\MutipleChoice\obj\Debug\net8.0\ref\MutipleChoice.dll

@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    padding-left: 5px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px;
+}
+
+.logo img {
+    width: 300px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.menu a {
+    color: #000;
+    text-shadow: 2px 0.3rem 0.2rem #999;
+}
+
+.menu a:hover {
+    border-bottom: 2px solid #000;
+}
+
+.cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner {
+    background: url(../images/images/banner.jpg) no-repeat;
+    width: 100%;
+    height: 750px;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.banner h3 {
+    font-family: 'Mali', cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.banner span {
+    display: flex;
+    justify-content: center;
+    font-family: 'Mali', cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.banner p {
+    font-family: 'Mali', cursive;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    /* margin: 50px 0; */
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+}
+
+.product_name {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.price {
+    font-family: "Mali", cursive;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.slide {
+    background: url(../images/images/pic4.png) no-repeat left bottom,
+        url(../images/images/pic6.png) no-repeat right top;
+    height: 400px;
+    background-size: 300px 300px;
+    background-color: #e7e7e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.slide span {
+    font-size: 50px;
+    color: #999;
+    cursor: pointer;
+}
+
+.slide-content {
+    text-align: center;
+    font-family: "Mali", cursive;
+}
+
+.slide-content h2 {
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.slide-content p {
+    font-size: 30px;
+    font-weight: 200;
+    padding-top: 15px;
+}
+
+.product-title {
+    padding: 50px 0px 20px 0px;
+    font-size: 20px;
+}
+
+.card.card-btn {
+    position: relative;
+}
+
+.card.card-btn button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #fff;
+    border: 3px solid #222;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.card.card-btn button:hover {
+    background-color: #88c6ed;
+}
+
+.signal {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 30px;
+}
+
+.signal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 40;
+}
+
+.signal-title {
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.signal-img {
+    width: 60%;
+    padding-left: 30px;
+}
+
+.signal-img img {
+    width: 100%;
+}
+
+.signal-title {
+    font-size: 25px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.signal-title span {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 800;
+    font-style: normal;
+    color: red;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+    background-color: #e7e7e7;
+    margin-top: 50px;
+}
+
+.footer ul li {
+    list-style: none;
+    line-height: 30px;
+    font-weight: 200px;
+}
+
+.footer .menu-title {
+    font-weight: 500;
+}
+
+.footer ul li a {
+    font-size: 15px;
+    color: #333;
+}
+
+.menu-title {
+    font-size: 20px;
+    padding-bottom: 15px;
+}

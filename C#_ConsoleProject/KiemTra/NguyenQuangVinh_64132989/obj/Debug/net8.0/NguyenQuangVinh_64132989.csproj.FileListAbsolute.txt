@@ -1,0 +1,15 @@
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\KiemTra\NguyenQuangVinh_64132989\bin\Debug\net8.0\NguyenQuangVinh_64132989.exe
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\KiemTra\NguyenQuangVinh_64132989\bin\Debug\net8.0\NguyenQuangVinh_64132989.deps.json
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\KiemTra\NguyenQuangVinh_64132989\bin\Debug\net8.0\NguyenQuangVinh_64132989.runtimeconfig.json
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\KiemTra\NguyenQuangVinh_64132989\bin\Debug\net8.0\NguyenQuangVinh_64132989.dll
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\KiemTra\NguyenQuangVinh_64132989\bin\Debug\net8.0\NguyenQuangVinh_64132989.pdb
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\KiemTra\NguyenQuangVinh_64132989\obj\Debug\net8.0\NguyenQuangVinh_64132989.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\KiemTra\NguyenQuangVinh_64132989\obj\Debug\net8.0\NguyenQuangVinh_64132989.AssemblyInfoInputs.cache
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\KiemTra\NguyenQuangVinh_64132989\obj\Debug\net8.0\NguyenQuangVinh_64132989.AssemblyInfo.cs
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\KiemTra\NguyenQuangVinh_64132989\obj\Debug\net8.0\NguyenQuangVinh_64132989.csproj.CoreCompileInputs.cache
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\KiemTra\NguyenQuangVinh_64132989\obj\Debug\net8.0\NguyenQuangVinh_64132989.sourcelink.json
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\KiemTra\NguyenQuangVinh_64132989\obj\Debug\net8.0\NguyenQuangVinh_64132989.dll
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\KiemTra\NguyenQuangVinh_64132989\obj\Debug\net8.0\refint\NguyenQuangVinh_64132989.dll
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\KiemTra\NguyenQuangVinh_64132989\obj\Debug\net8.0\NguyenQuangVinh_64132989.pdb
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\KiemTra\NguyenQuangVinh_64132989\obj\Debug\net8.0\NguyenQuangVinh_64132989.genruntimeconfig.cache
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\KiemTra\NguyenQuangVinh_64132989\obj\Debug\net8.0\ref\NguyenQuangVinh_64132989.dll
