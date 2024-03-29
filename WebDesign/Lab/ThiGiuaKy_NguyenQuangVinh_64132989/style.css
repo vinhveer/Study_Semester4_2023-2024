@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* CSS for navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 90px;
+    padding-right: 60px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu_active {
+    font-weight: 600;
+    color: #f89557;
+}
+
+/* CSS for banner */
+.banner {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* CSS for our reputation */
+.our_reputation {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.our_reputation_title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.our_reputation_title h2 {
+    font-weight: 700;
+    color: #292e3d;
+}
+
+.our_reputation_card {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.or_card {
+    border: 1px solid #e0e0e0;
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px;
+}
+
+.or_card i {
+    font-size: 30px;
+    color: #fa9e64;
+}
+
+.or_card h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: #3d445c;
+}
+
+.or_card p {
+    font-size: 14px;
+    color: #848dac;
+}
+
+/* CSS for about */
+.about {
+    background: url(./images/person.png) no-repeat;
+    box-shadow: #848dac;
+    height: 800px;  
+    position: relative;
+    margin-left: 50px;
+}
+
+.about_content {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    width: 30%;
+    background-color: #2a46a9;
+    padding: 30px;
+    color: #fff;
+}
+
+.about_title {
+    font-size: 30px;
+}
+
+.about_description {
+    font-size: 16px;
+    color: #ddd;
+    padding: 30px 0;
+}
+
+.about_description p:first-child {
+    padding-bottom: 20px;
+}
+
+.about_button {
+    padding: 10px 15px;
+    color: #2a46a9;
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+/* CSS for consultation */
+.consultation {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url("images/free-consultation.png");
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact h3 {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+}
+
+.contact p {
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+}
+
+.contact strong {
+    text-decoration: underline;
+    font-weight: 300;
+}
+
+.button {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 8%;
+}
+
+.button button {
+    padding: 10px 20px 10px 20px;
+    background-color: transparent;
+    color: none;
+    border: 1px solid white;
+    font-weight: 600;
+}
+
+.button p {
+    color: white;
+    font-weight: 600;
+}
+
+/* CSS for footer */
+.footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.info {
+    padding-left: 80px;
+    width: 50%;
+}
+
+.logo_info img  {
+    padding-top: 20px;
+    width: 130px;
+}
+
+.contact_us {
+    padding-right: 80px;
+    width: 40%;
+}
+
+.info_block {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.info_block strong {
+    padding-right: 10px;
+    color: #11339f;
+    font-weight: 500;
+}
+
+.title {
+    padding-bottom: 5px;
+}
+
+.title strong {
+    color: #11339f;
+    font-weight: 500;
+}
+
+.newsletter {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.newsletter input {
+    padding: 5px 5px 5px 5px;
+    width: 70%;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 5px 20px 5px 20px;
+    background-color: #f9995d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.social i {
+    font-size: 25px;
+    padding-right: 10px;
+}
