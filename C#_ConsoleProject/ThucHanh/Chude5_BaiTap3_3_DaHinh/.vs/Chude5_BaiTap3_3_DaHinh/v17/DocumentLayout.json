@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\Chude5_BaiTap3_3_DaHinh\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E9899D6-7221-4A54-9261-D9DC1A76FB79}|Chude5_BaiTap3_3_DaHinh\\Chude5_BaiTap3_3_DaHinh.csproj|D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\Chude5_BaiTap3_3_DaHinh\\chude5_baitap3_3_dahinh\\canbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E9899D6-7221-4A54-9261-D9DC1A76FB79}|Chude5_BaiTap3_3_DaHinh\\Chude5_BaiTap3_3_DaHinh.csproj|solutionrelative:chude5_baitap3_3_dahinh\\canbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E9899D6-7221-4A54-9261-D9DC1A76FB79}|Chude5_BaiTap3_3_DaHinh\\Chude5_BaiTap3_3_DaHinh.csproj|D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\Chude5_BaiTap3_3_DaHinh\\chude5_baitap3_3_dahinh\\giaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E9899D6-7221-4A54-9261-D9DC1A76FB79}|Chude5_BaiTap3_3_DaHinh\\Chude5_BaiTap3_3_DaHinh.csproj|solutionrelative:chude5_baitap3_3_dahinh\\giaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E9899D6-7221-4A54-9261-D9DC1A76FB79}|Chude5_BaiTap3_3_DaHinh\\Chude5_BaiTap3_3_DaHinh.csproj|D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\Chude5_BaiTap3_3_DaHinh\\chude5_baitap3_3_dahinh\\nhanvienhanhchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E9899D6-7221-4A54-9261-D9DC1A76FB79}|Chude5_BaiTap3_3_DaHinh\\Chude5_BaiTap3_3_DaHinh.csproj|solutionrelative:chude5_baitap3_3_dahinh\\nhanvienhanhchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E9899D6-7221-4A54-9261-D9DC1A76FB79}|Chude5_BaiTap3_3_DaHinh\\Chude5_BaiTap3_3_DaHinh.csproj|d:\\desktop\\study\\study_semester4_2023-2024\\c#_consoleproject\\thuchanh\\chude5_baitap3_3_dahinh\\chude5_baitap3_3_dahinh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E9899D6-7221-4A54-9261-D9DC1A76FB79}|Chude5_BaiTap3_3_DaHinh\\Chude5_BaiTap3_3_DaHinh.csproj|solutionrelative:chude5_baitap3_3_dahinh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GiaoVien.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\Chude5_BaiTap3_3_DaHinh\\Chude5_BaiTap3_3_DaHinh\\GiaoVien.cs",
+              "RelativeDocumentMoniker": "Chude5_BaiTap3_3_DaHinh\\GiaoVien.cs",
+              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\Chude5_BaiTap3_3_DaHinh\\Chude5_BaiTap3_3_DaHinh\\GiaoVien.cs",
+              "RelativeToolTip": "Chude5_BaiTap3_3_DaHinh\\GiaoVien.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAowDgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T10:21:19.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NhanVienHanhChinh.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\Chude5_BaiTap3_3_DaHinh\\Chude5_BaiTap3_3_DaHinh\\NhanVienHanhChinh.cs",
+              "RelativeDocumentMoniker": "Chude5_BaiTap3_3_DaHinh\\NhanVienHanhChinh.cs",
+              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\Chude5_BaiTap3_3_DaHinh\\Chude5_BaiTap3_3_DaHinh\\NhanVienHanhChinh.cs",
+              "RelativeToolTip": "Chude5_BaiTap3_3_DaHinh\\NhanVienHanhChinh.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T10:21:00.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CanBo.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\Chude5_BaiTap3_3_DaHinh\\Chude5_BaiTap3_3_DaHinh\\CanBo.cs",
+              "RelativeDocumentMoniker": "Chude5_BaiTap3_3_DaHinh\\CanBo.cs",
+              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\Chude5_BaiTap3_3_DaHinh\\Chude5_BaiTap3_3_DaHinh\\CanBo.cs",
+              "RelativeToolTip": "Chude5_BaiTap3_3_DaHinh\\CanBo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T10:20:18.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\Chude5_BaiTap3_3_DaHinh\\Chude5_BaiTap3_3_DaHinh\\Program.cs",
+              "RelativeDocumentMoniker": "Chude5_BaiTap3_3_DaHinh\\Program.cs",
+              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\Chude5_BaiTap3_3_DaHinh\\Chude5_BaiTap3_3_DaHinh\\Program.cs",
+              "RelativeToolTip": "Chude5_BaiTap3_3_DaHinh\\Program.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T10:18:59.67Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

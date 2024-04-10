@@ -1,0 +1,15 @@
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\Chude5_BaiTap3_3_DaHinh\Chude5_BaiTap3_3_DaHinh\bin\Debug\net8.0\Chude5_BaiTap3_3_DaHinh.exe
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\Chude5_BaiTap3_3_DaHinh\Chude5_BaiTap3_3_DaHinh\bin\Debug\net8.0\Chude5_BaiTap3_3_DaHinh.deps.json
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\Chude5_BaiTap3_3_DaHinh\Chude5_BaiTap3_3_DaHinh\bin\Debug\net8.0\Chude5_BaiTap3_3_DaHinh.runtimeconfig.json
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\Chude5_BaiTap3_3_DaHinh\Chude5_BaiTap3_3_DaHinh\bin\Debug\net8.0\Chude5_BaiTap3_3_DaHinh.dll
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\Chude5_BaiTap3_3_DaHinh\Chude5_BaiTap3_3_DaHinh\bin\Debug\net8.0\Chude5_BaiTap3_3_DaHinh.pdb
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\Chude5_BaiTap3_3_DaHinh\Chude5_BaiTap3_3_DaHinh\obj\Debug\net8.0\Chude5_BaiTap3_3_DaHinh.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\Chude5_BaiTap3_3_DaHinh\Chude5_BaiTap3_3_DaHinh\obj\Debug\net8.0\Chude5_BaiTap3_3_DaHinh.AssemblyInfoInputs.cache
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\Chude5_BaiTap3_3_DaHinh\Chude5_BaiTap3_3_DaHinh\obj\Debug\net8.0\Chude5_BaiTap3_3_DaHinh.AssemblyInfo.cs
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\Chude5_BaiTap3_3_DaHinh\Chude5_BaiTap3_3_DaHinh\obj\Debug\net8.0\Chude5_BaiTap3_3_DaHinh.csproj.CoreCompileInputs.cache
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\Chude5_BaiTap3_3_DaHinh\Chude5_BaiTap3_3_DaHinh\obj\Debug\net8.0\Chude5_BaiTap3_3_DaHinh.sourcelink.json
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\Chude5_BaiTap3_3_DaHinh\Chude5_BaiTap3_3_DaHinh\obj\Debug\net8.0\Chude5_BaiTap3_3_DaHinh.dll
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\Chude5_BaiTap3_3_DaHinh\Chude5_BaiTap3_3_DaHinh\obj\Debug\net8.0\refint\Chude5_BaiTap3_3_DaHinh.dll
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\Chude5_BaiTap3_3_DaHinh\Chude5_BaiTap3_3_DaHinh\obj\Debug\net8.0\Chude5_BaiTap3_3_DaHinh.pdb
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\Chude5_BaiTap3_3_DaHinh\Chude5_BaiTap3_3_DaHinh\obj\Debug\net8.0\Chude5_BaiTap3_3_DaHinh.genruntimeconfig.cache
+D:\Desktop\Study\Study_Semester4_2023-2024\C#_ConsoleProject\ThucHanh\Chude5_BaiTap3_3_DaHinh\Chude5_BaiTap3_3_DaHinh\obj\Debug\net8.0\ref\Chude5_BaiTap3_3_DaHinh.dll
