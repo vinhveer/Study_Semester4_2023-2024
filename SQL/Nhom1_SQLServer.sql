@@ -1,106 +1,7 @@
-﻿USE demo;
-GO
-
-DROP DATABASE IF EXISTS BookStore;
-GO
-
-CREATE DATABASE BookStore;
+﻿CREATE DATABASE BookStore;
 GO
 
 USE BookStore;
-GO
-
-DROP TABLE IF EXISTS stock_out_details;
-GO
-
-DROP TABLE IF EXISTS stock_in_details;
-GO
-
-DROP TABLE IF EXISTS stock_out;
-GO
-
-DROP TABLE IF EXISTS stock_in;
-GO
-
-DROP TABLE IF EXISTS payments_on;
-GO
-
-DROP TABLE IF EXISTS payments_off;
-GO
-
-DROP TABLE IF EXISTS order_details_on;
-GO
-
-DROP TABLE IF EXISTS order_details_off;
-GO
-
-DROP TABLE IF EXISTS orders_online;
-GO
-
-DROP TABLE IF EXISTS customers;
-GO
-
-DROP TABLE IF EXISTS orders_offline;
-GO
-
-DROP TABLE IF EXISTS others_products;
-GO
-
-DROP TABLE IF EXISTS brands;
-GO
-
-DROP TABLE IF EXISTS book_author;
-GO
-
-DROP TABLE IF EXISTS books;
-GO
-
-DROP TABLE IF EXISTS author;
-GO
-
-DROP TABLE IF EXISTS book_languages;
-GO
-
-DROP TABLE IF EXISTS book_publishers;
-GO
-
-DROP TABLE IF EXISTS book_categories;
-GO
-
-DROP TABLE IF EXISTS products;
-GO
-
-DROP TABLE IF EXISTS suppliers;
-GO
-
-DROP TABLE IF EXISTS product_categories;
-GO
-
-DROP TABLE IF EXISTS employee_attendance;
-GO
-
-DROP TABLE IF EXISTS employee_salary;
-GO
-
-DROP TABLE IF EXISTS salary_coefficient;
-GO
-
-DROP TABLE IF EXISTS employees;
-GO
-
-DROP TABLE IF EXISTS education_level;
-GO
-
-DROP TABLE IF EXISTS user_accounts;
-GO
-
-DROP TABLE IF EXISTS user_roles;
-GO
-
-DROP TABLE IF EXISTS roles;
-GO
-
-DROP TABLE IF EXISTS users;
 GO
 
 
@@ -237,16 +138,16 @@ CREATE TABLE author (
 GO
 
 CREATE TABLE books (
-    product_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi sách
+    product_id BIGINT PRIMARY KEY, -- ID duy nhất cho mỗi sách
     book_name NVARCHAR(MAX) NOT NULL, -- Tên sách
     book_category_id BIGINT NOT NULL, -- ID của danh mục sách
-    book_description NVARCHAR(MAX) NOT NULL, -- Mô tả sách
+    book_description NVARCHAR(MAX) NULL, -- Mô tả sách
     book_language_id BIGINT NOT NULL, -- ID của ngôn ngữ sách
     book_publication_year SMALLINT NOT NULL, -- Năm xuất bản
-    book_packaging_size VARCHAR(15) NOT NULL, -- Kích thước đóng gói sách
-    book_format_id VARCHAR(50) NOT NULL, -- Định dạng sách
+    book_packaging_size VARCHAR(50) NOT NULL, -- Kích thước đóng gói sách
+    book_format VARCHAR(50) NOT NULL, -- Định dạng sách
+    book_ISBN VARCHAR(50) NOT NULL,
     book_publisher_id BIGINT NOT NULL, -- ID của nhà xuất bản
-    book_author_id NVARCHAR(MAX) NOT NULL ,-- Tên của tác giả sách
     FOREIGN KEY (book_category_id) REFERENCES book_categories (book_category_id),
     FOREIGN KEY (book_language_id) REFERENCES book_languages (book_language_id),
     FOREIGN KEY (book_publisher_id) REFERENCES book_publishers (book_publisher_id),
@@ -271,13 +172,14 @@ CREATE TABLE brands (
 GO
 
 CREATE TABLE others_products (
-    product_id BIGINT IDENTITY(1,1) PRIMARY KEY, -- ID duy nhất cho mỗi sản phẩm khác
+    product_id BIGINT PRIMARY KEY, -- ID duy nhất cho mỗi sản phẩm khác
     others_product_name NVARCHAR(MAX) NOT NULL, -- Tên sản phẩm khác
-    others_product_description NVARCHAR(MAX) NOT NULL, -- Mô tả sản phẩm khác
+    others_product_description NVARCHAR(MAX) NULL, -- Mô tả sản phẩm khác
     others_product_brand_id BIGINT NOT NULL, -- ID của thương hiệu sản phẩm khác
     others_product_color NVARCHAR(50) NOT NULL, -- Màu sắc sản phẩm khác
     others_product_material NVARCHAR(MAX) NOT NULL, -- Chất liệu sản phẩm khác
-    others_product_weight INT NOT NULL, -- Trọng lượng sản phẩm khác
+    others_product_weight DECIMAL(10,2) NOT NULL, -- Trọng lượng sản phẩm khác
+    others_product_size VARCHAR(100) NOT NULL,
     FOREIGN KEY (others_product_brand_id) REFERENCES brands (brand_id),
     FOREIGN KEY (product_id) REFERENCES products (product_id)
 );
