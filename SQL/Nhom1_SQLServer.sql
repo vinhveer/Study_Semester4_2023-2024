@@ -1,4 +1,4 @@
-﻿CREATE DATABASE BookStore;
+CREATE DATABASE BookStore;
 GO
 
 USE BookStore;
@@ -110,6 +110,20 @@ CREATE TABLE products (
     product_status NVARCHAR(100) NOT NULL,
     FOREIGN KEY (category_id) REFERENCES product_categories (category_id),
     FOREIGN KEY (supplier_id) REFERENCES suppliers (supplier_id)
+);
+GO
+
+
+CREATE TABLE carts (
+    user_id BIGINT NOT NULL,
+    product_id BIGINT NOT NULL,
+    quantity INT NOT NULL, 
+    created_at DATETIME NOT NULL DEFAULT GETDATE(), 
+    PRIMARY KEY (user_id, product_id), 
+    FOREIGN KEY (user_id) REFERENCES users (user_id),
+    FOREIGN KEY (product_id) REFERENCES products (product_id),
+    CHECK (quantity >= 0),
+    CONSTRAINT UQ_UserProduct UNIQUE (user_id, product_id) 
 );
 GO
 

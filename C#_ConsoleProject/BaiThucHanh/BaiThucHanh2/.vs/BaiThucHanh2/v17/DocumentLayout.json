@@ -1,29 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\",
+  "WorkspaceRootPath": "D:\\Desktop\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3AEB2C59-54A2-424F-ADEA-9963F344BF31}|Bai7\\Bai7.csproj|d:\\desktop\\study\\study_semester4_2023-2024\\c#_consoleproject\\baithuchanh\\baithuchanh2\\bai7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AEB2C59-54A2-424F-ADEA-9963F344BF31}|Bai7\\Bai7.csproj|solutionrelative:bai7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AEB2C59-54A2-424F-ADEA-9963F344BF31}|Bai7\\Bai7.csproj|D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\bai7\\adult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AEB2C59-54A2-424F-ADEA-9963F344BF31}|Bai7\\Bai7.csproj|solutionrelative:bai7\\adult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{662032E5-D463-4763-BF9F-DBDB3E4EA621}|Bai3\\Bai3.csproj|D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\bai3\\flightticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{662032E5-D463-4763-BF9F-DBDB3E4EA621}|Bai3\\Bai3.csproj|D:\\Desktop\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\bai3\\flightticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{662032E5-D463-4763-BF9F-DBDB3E4EA621}|Bai3\\Bai3.csproj|solutionrelative:bai3\\flightticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{662032E5-D463-4763-BF9F-DBDB3E4EA621}|Bai3\\Bai3.csproj|D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\bai3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{671D8925-B03E-4935-868F-47C3CD6C8A0C}|Bai5\\Bai5.csproj|d:\\desktop\\study_semester4_2023-2024\\c#_consoleproject\\baithuchanh\\baithuchanh2\\bai5\\fraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{671D8925-B03E-4935-868F-47C3CD6C8A0C}|Bai5\\Bai5.csproj|solutionrelative:bai5\\fraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA78D0CE-C3C0-4146-88DD-FB2A11E16A58}|Bai6\\Bai6.csproj|d:\\desktop\\study_semester4_2023-2024\\c#_consoleproject\\baithuchanh\\baithuchanh2\\bai6\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA78D0CE-C3C0-4146-88DD-FB2A11E16A58}|Bai6\\Bai6.csproj|solutionrelative:bai6\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AEB2C59-54A2-424F-ADEA-9963F344BF31}|Bai7\\Bai7.csproj|D:\\Desktop\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\bai7\\adult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AEB2C59-54A2-424F-ADEA-9963F344BF31}|Bai7\\Bai7.csproj|solutionrelative:bai7\\adult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37F9C507-5400-4A6E-8A27-B77C69E2BC42}|Bai1\\Bai1.csproj|d:\\desktop\\study_semester4_2023-2024\\c#_consoleproject\\baithuchanh\\baithuchanh2\\bai1\\time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37F9C507-5400-4A6E-8A27-B77C69E2BC42}|Bai1\\Bai1.csproj|solutionrelative:bai1\\time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37F9C507-5400-4A6E-8A27-B77C69E2BC42}|Bai1\\Bai1.csproj|d:\\desktop\\study_semester4_2023-2024\\c#_consoleproject\\baithuchanh\\baithuchanh2\\bai1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37F9C507-5400-4A6E-8A27-B77C69E2BC42}|Bai1\\Bai1.csproj|solutionrelative:bai1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662032E5-D463-4763-BF9F-DBDB3E4EA621}|Bai3\\Bai3.csproj|D:\\Desktop\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\bai3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{662032E5-D463-4763-BF9F-DBDB3E4EA621}|Bai3\\Bai3.csproj|solutionrelative:bai3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BD248C5-E094-4386-B9FA-F1467148336C}|Bai2\\Bai2.csproj|D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\bai2\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9BD248C5-E094-4386-B9FA-F1467148336C}|Bai2\\Bai2.csproj|D:\\Desktop\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\bai2\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BD248C5-E094-4386-B9FA-F1467148336C}|Bai2\\Bai2.csproj|solutionrelative:bai2\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BD248C5-E094-4386-B9FA-F1467148336C}|Bai2\\Bai2.csproj|D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\bai2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9BD248C5-E094-4386-B9FA-F1467148336C}|Bai2\\Bai2.csproj|D:\\Desktop\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\bai2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BD248C5-E094-4386-B9FA-F1467148336C}|Bai2\\Bai2.csproj|solutionrelative:bai2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,40 +46,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai7\\Program.cs",
-              "RelativeDocumentMoniker": "Bai7\\Program.cs",
-              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai7\\Program.cs",
-              "RelativeToolTip": "Bai7\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA2AAAA",
+              "DocumentIndex": 2,
+              "Title": "Point.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai6\\Point.cs",
+              "RelativeDocumentMoniker": "Bai6\\Point.cs",
+              "ToolTip": "D:\\Desktop\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai6\\Point.cs",
+              "RelativeToolTip": "Bai6\\Point.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T04:16:33.348Z",
+              "WhenOpened": "2024-04-13T07:59:38.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Adult.cs",
-              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai7\\Adult.cs",
-              "RelativeDocumentMoniker": "Bai7\\Adult.cs",
-              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai7\\Adult.cs",
-              "RelativeToolTip": "Bai7\\Adult.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Fraction.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai5\\Fraction.cs",
+              "RelativeDocumentMoniker": "Bai5\\Fraction.cs",
+              "ToolTip": "D:\\Desktop\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai5\\Fraction.cs",
+              "RelativeToolTip": "Bai5\\Fraction.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T04:16:32.144Z"
+              "WhenOpened": "2024-04-13T07:58:42.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Time.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai1\\Time.cs",
+              "RelativeDocumentMoniker": "Bai1\\Time.cs",
+              "ToolTip": "D:\\Desktop\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai1\\Time.cs",
+              "RelativeToolTip": "Bai1\\Time.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T07:58:38.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai1\\Program.cs",
+              "RelativeDocumentMoniker": "Bai1\\Program.cs",
+              "ToolTip": "D:\\Desktop\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai1\\Program.cs",
+              "RelativeToolTip": "Bai1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T07:54:51.856Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Adult.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai7\\Adult.cs",
+              "RelativeDocumentMoniker": "Bai7\\Adult.cs",
+              "ToolTip": "D:\\Desktop\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai7\\Adult.cs",
+              "RelativeToolTip": "Bai7\\Adult.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:16:32.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai3\\Program.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai3\\Program.cs",
               "RelativeDocumentMoniker": "Bai3\\Program.cs",
-              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai3\\Program.cs",
+              "ToolTip": "D:\\Desktop\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai3\\Program.cs",
               "RelativeToolTip": "Bai3\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -75,23 +127,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FlightTicket.cs",
-              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai3\\FlightTicket.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai3\\FlightTicket.cs",
               "RelativeDocumentMoniker": "Bai3\\FlightTicket.cs",
-              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai3\\FlightTicket.cs",
+              "ToolTip": "D:\\Desktop\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai3\\FlightTicket.cs",
               "RelativeToolTip": "Bai3\\FlightTicket.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAvAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACgAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T02:56:11.472Z"
+              "WhenOpened": "2024-03-20T02:56:11.472Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai2\\Program.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai2\\Program.cs",
               "RelativeDocumentMoniker": "Bai2\\Program.cs",
-              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai2\\Program.cs",
+              "ToolTip": "D:\\Desktop\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai2\\Program.cs",
               "RelativeToolTip": "Bai2\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -99,11 +152,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Rectangle.cs",
-              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai2\\Rectangle.cs",
+              "DocumentMoniker": "D:\\Desktop\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai2\\Rectangle.cs",
               "RelativeDocumentMoniker": "Bai2\\Rectangle.cs",
-              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai2\\Rectangle.cs",
+              "ToolTip": "D:\\Desktop\\Study_Semester4_2023-2024\\C#_ConsoleProject\\BaiThucHanh\\BaiThucHanh2\\Bai2\\Rectangle.cs",
               "RelativeToolTip": "Bai2\\Rectangle.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAAACgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

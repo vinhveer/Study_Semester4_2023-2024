@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Bai3
 {
@@ -7,48 +10,35 @@ namespace Bai3
     {
         static void Main(string[] args)
         {
-            List<PhieuLuuTru> danhSachPhieu = new List<PhieuLuuTru>();
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.InputEncoding = Encoding.UTF8;
 
-            // Nhập n phiếu lưu trú (1 < n < 30)
+            Console.Write("Enter number of vouchers: ");
             int n;
-            do
+            while (!int.TryParse(Console.ReadLine(), out n) || n <= 0)
             {
-                Console.Write("Nhập số lượng phiếu lưu trú (1 < n < 30): ");
-            } while (!int.TryParse(Console.ReadLine(), out n) || n <= 0 || n >= 30);
+                Console.Write("Invalid! Enter number of vouchers again: ");
+            }
 
+            List<Voucher> vouchers = new List<Voucher>();
             for (int i = 0; i < n; i++)
             {
-                PhieuLuuTru phieu = new PhieuLuuTru();
-                phieu.NhapThongTin();
-                danhSachPhieu.Add(phieu);
+                Voucher voucher = new Voucher();
+                voucher.Input();
+                vouchers.Add(voucher);
             }
 
-            // Xuất thông tin n phiếu ra màn hình theo thứ tự giảm dần của số ngày ở
-            danhSachPhieu.Sort((a, b) => b.SoNgay0.CompareTo(a.SoNgay0));
-            Console.WriteLine("\nThông tin các phiếu lưu trú theo số ngày ở giảm dần:");
-            foreach (var phieu in danhSachPhieu)
+            Console.WriteLine("Vouchers:");
+            foreach (Voucher voucher in vouchers)
             {
-                phieu.XuatThongTin();
-                Console.WriteLine();
+                Console.WriteLine(voucher);
             }
 
-            // Đếm và xuất ra màn hình số lượng phiếu lưu trú trong quý 1 năm 2024
-            int countQuy1 = 0;
-            foreach (var phieu in danhSachPhieu)
-            {
-                if (phieu.NgayDen.Year == 2024 && phieu.NgayDen.Month >= 1 && phieu.NgayDen.Month <= 3)
-                    countQuy1++;
-            }
-            Console.WriteLine($"\nSố lượng phiếu lưu trú trong quý 1 năm 2024: {countQuy1}");
+            int countFirstQuarter = vouchers.Count(v => v.IsInFirstQuarter());
+            Console.WriteLine($"Number of vouchers in the first quarter of 2024: {countFirstQuarter}");
 
-            // Tính và in ra màn hình tiền phòng trung bình của n phiếu lưu trú
-            double tongTienPhong = 0;
-            foreach (var phieu in danhSachPhieu)
-            {
-                tongTienPhong += phieu.TinhTienPhong();
-            }
-            double tienPhongTrungBinh = tongTienPhong / n;
-            Console.WriteLine($"Tiền phòng trung bình của {n} phiếu lưu trú: {tienPhongTrungBinh}");
+            double averagePrice = vouchers.Average(v => v.CalculateTotalPrice());
+            Console.WriteLine($"Average price of {n} vouchers: {averagePrice}");
         }
     }
 }

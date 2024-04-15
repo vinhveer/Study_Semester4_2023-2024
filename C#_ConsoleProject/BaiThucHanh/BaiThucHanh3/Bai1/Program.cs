@@ -1,57 +1,96 @@
-﻿namespace Bai1
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Bai1
 {
     internal class Program
     {
-        static void Process()
+        static void CreateCircle()
         {
-            // Create 2 objects
-            Circle c1 = new Circle();
-            float r;
+            // Create object with constructor
+            Circle circle1 = new Circle();
 
-            Console.Write("Enter the radius: ");
-            while (!float.TryParse(Console.ReadLine(), out r))
+            float radius;
+            Console.Write("Enter radius for circle 2: ");
+            while (!float.TryParse(Console.ReadLine(), out radius))
             {
-                Console.WriteLine("Invalid input. Please enter again: ");
+                Console.WriteLine("Invalid input. Please try again!");
+                Console.Write("Enter radius: ");
             }
 
-            Circle c2 = new Circle(4);
+            Circle circle2 = new Circle(radius);
 
             // Print info
-            c1.Info();
-            c2.Info();
+            circle1.Info();
+            circle2.Info();
 
-            // Change the radius of c1
-            Console.Write("Enter the radius (Update for object 1): ");
-            while (!float.TryParse(Console.ReadLine(), out r))
+            // Update radius for circle1
+            Console.WriteLine("Enter radius for circle 1 (Update): ");
+            while (!float.TryParse(Console.ReadLine(), out radius))
             {
-                Console.WriteLine("Invalid input. Please enter again: ");
+                Console.WriteLine("Invalid input. Please try again!");
+                Console.Write("Enter radius: ");
             }
 
-            c2.SetRadius(r);
+            circle1.SetRadius(radius);
 
-            // Sum of 2 areas
-            Console.WriteLine("Sum of 2 areas: " + (c1 + c2));
+            // Print sum area with two object
+            Console.WriteLine($"Sum area: {circle1 + circle2}");
         }
 
-        static void CalculateManyCircle()
+        static void CreateCircles()
         {
-            ListCircle listCircle = new ListCircle();
+            List<Circle> circles = new List<Circle>();
 
-            listCircle.Input();
-            listCircle.Output();
+            // Input n circle
+            int n;
+            Console.Write("Enter n (2 < n < 30): ");
+            while (!int.TryParse(Console.ReadLine(), out n) || n <= 2 || n >= 30)
+            {
+                Console.WriteLine("Invalid input. Please try again!");
+                Console.Write("Enter n (2 < n < 30): ");
+            }
 
-            Console.WriteLine("Sum of perimeters: " + listCircle.SumPerimeter());
+            // Enter radius for n circle
+            float radius;
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write($"Enter radius for circle {i}: ");
+                while (!float.TryParse(Console.ReadLine(), out radius))
+                {
+                    Console.WriteLine("Invalid input. Please try again!");
+                    Console.Write($"Enter radius for circle {i}: ");
+                }
+                circles.Add(new Circle(radius));
+            }
 
-            Console.WriteLine("Circle with the largest area: ");
-            listCircle.FindMaxArea();
+            // Print info for n circle
+            foreach (Circle circle in circles)
+            {
+                circle.Info();
+            }
 
+            // Print info circle have max area
+            Circle maxArea = circles[0];
+            foreach(Circle circle in circles)
+            {
+                if (circle.GetArea() > maxArea.GetArea())
+                {
+                    maxArea = circle;
+                }
+            }
+
+            Console.WriteLine($"Circle have max area: ");
+            maxArea.Info();
         }
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-            Process();
-            CalculateManyCircle();
+            CreateCircle();
+            CreateCircles();
         }
     }
 }
