@@ -1,0 +1,10 @@
+D:\Desktop\Study_Semester4_2023-2024\C#_ConsoleProject\WindowsForm\DemoSolution\Study\bin\Debug\Study.exe.config
+D:\Desktop\Study_Semester4_2023-2024\C#_ConsoleProject\WindowsForm\DemoSolution\Study\bin\Debug\Study.exe
+D:\Desktop\Study_Semester4_2023-2024\C#_ConsoleProject\WindowsForm\DemoSolution\Study\bin\Debug\Study.pdb
+D:\Desktop\Study_Semester4_2023-2024\C#_ConsoleProject\WindowsForm\DemoSolution\Study\obj\Debug\Study.csproj.AssemblyReference.cache
+D:\Desktop\Study_Semester4_2023-2024\C#_ConsoleProject\WindowsForm\DemoSolution\Study\obj\Debug\Study.Form1.resources
+D:\Desktop\Study_Semester4_2023-2024\C#_ConsoleProject\WindowsForm\DemoSolution\Study\obj\Debug\Study.Properties.Resources.resources
+D:\Desktop\Study_Semester4_2023-2024\C#_ConsoleProject\WindowsForm\DemoSolution\Study\obj\Debug\Study.csproj.GenerateResource.cache
+D:\Desktop\Study_Semester4_2023-2024\C#_ConsoleProject\WindowsForm\DemoSolution\Study\obj\Debug\Study.csproj.CoreCompileInputs.cache
+D:\Desktop\Study_Semester4_2023-2024\C#_ConsoleProject\WindowsForm\DemoSolution\Study\obj\Debug\Study.exe
+D:\Desktop\Study_Semester4_2023-2024\C#_ConsoleProject\WindowsForm\DemoSolution\Study\obj\Debug\Study.pdb
