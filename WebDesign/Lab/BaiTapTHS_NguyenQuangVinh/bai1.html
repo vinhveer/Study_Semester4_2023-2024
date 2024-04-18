@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Content and Style</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f7f7;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        
+        .heading {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 50px;
+            margin: 0 auto;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            margin: 100px 10px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #heading {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading">
+        <h1 id="heading">Original Heading</h1>
+    </div>
+    <button onclick="changeContent()">Change Content</button>
+    <button onclick="changeStyle()">Change Style</button>
+    <script src="js/bai1.js"></script>
+</body>
+
+</html>

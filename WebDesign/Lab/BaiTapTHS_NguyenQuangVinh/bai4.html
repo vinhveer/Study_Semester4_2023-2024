@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .slider-images {
+            width: 90%;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        .slider-images img {
+            width: 100%;
+            height: auto;
+            display: none;
+        }
+
+        .btn {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slider-images">
+        <img class="slide" src="img/image1.png" alt="Image 1">
+        <img class="slide" src="img/image2.png" alt="Image 2">
+        <img class="slide" src="img/image3.jpg" alt="Image 3">
+    </div>
+    <div class="btn">
+        <button id="prevBtn" onclick="prevSlide()">Previous</button>
+        <button id="nextBtn" onclick="nextSlide()">Next</button>
+    </div>
+    <script src="js/bai4.js"></script>
+</body>
+
+</html>
