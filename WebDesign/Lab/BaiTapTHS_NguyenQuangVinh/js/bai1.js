@@ -9,7 +9,7 @@ function changeStyle() {
     for (var i = 0; i < headings.length; i++) {
         headings[i].style.backgroundColor = '#101010';
     }
-
+    
     // Change text color for the element with id 'heading'
     var heading = document.getElementById('heading');
     heading.style.color = '#ff0000';
