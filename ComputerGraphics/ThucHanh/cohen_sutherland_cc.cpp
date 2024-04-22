@@ -183,7 +183,7 @@ void TimGiaoDiem(struct point p1, struct point p2)
 void CohenSutherland()
 {
     // Vẽ đường thẳng nối các điểm liên tiếp trong danh sách đỉnh
-    setcolor(4); // Màu đỏ cho đường thẳng
+    setcolor(15); // Màu đỏ cho đường thẳng
     setlinestyle(1, 1, 2); // Nét liền
     for (int i = 0; i < soDinh - 1; i++)
     {
@@ -209,8 +209,8 @@ int main()
 {
     ReadFile();
     initwindow(500, 500);
-    CohenSutherland();
     VeCuaSoCat();
+    CohenSutherland();
     getch();
     return 0;
 }
