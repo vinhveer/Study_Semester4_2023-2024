@@ -1,0 +1,7 @@
+D:\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh4\Bai6\bin\Debug\Bai6.exe.config
+D:\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh4\Bai6\bin\Debug\Bai6.exe
+D:\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh4\Bai6\bin\Debug\Bai6.pdb
+D:\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh4\Bai6\obj\Debug\Bai6.csproj.AssemblyReference.cache
+D:\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh4\Bai6\obj\Debug\Bai6.csproj.CoreCompileInputs.cache
+D:\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh4\Bai6\obj\Debug\Bai6.exe
+D:\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh4\Bai6\obj\Debug\Bai6.pdb

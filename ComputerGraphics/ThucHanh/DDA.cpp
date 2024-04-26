@@ -1,100 +1,36 @@
 #include <graphics.h>
-#include <stdio.h>
-#include <math.h>
+#include <cmath>
 
-int lt(float a)
+void drawLineDDA(int X1, int Y1, int X2, int Y2)
 {
-    return (a + 0.5);
-}
+    int dx = X2 - X1;
+    int dy = Y2 - Y1;
 
-float m;
+    int steps = abs(dx) > abs(dy) ? abs(dx) : abs(dy);
 
-void dda1(int xa, int ya, int xb, int yb)
-{
-    int x;
-    float y;
-    int dy = yb - ya;
-    int dx = xb - xa;
-    m = (float)dy / dx;
-    printf("m = %f", m);
-    x = xa;
-    y = ya;
-    putpixel(x, y, 255);
-    if (x < xb)
-    {
-        while (x < xb)
-        {
-            x++;
-            y = y + m;
-            putpixel(x, lt(y), 255);
-            printf("(%d, %d)\n", x, lt(y));
-            delay(10);
-        }
-    }
-    else
-    {
-        while (x > xb)
-        {
-            x--;
-            y = y - m;
-            putpixel(x, lt(y), 255);
-            printf("(%d, %d)\n", x, lt(y));
-            delay(10);
-        }
-    }
-}
+    float Xincrement = dx / (float)steps;
+    float Yincrement = dy / (float)steps;
 
-void dda2(int xa, int ya, int xb, int yb)
-{
-    float x;
-    int y;
-    int dy = yb - ya;
-    int dx = xb - xa;
-    m = (float)dy / dx;
-    printf("m = %f", m);
-    x = xa;
-    y = ya;
-    putpixel(x, y, 255);
-    if (y < yb)
+    float X = X1;
+    float Y = Y1;
+
+    for (int i = 0; i <= steps; i++)
     {
-        while (y < yb)
-        {
-            y++;
-            x = x + 1 / m;
-            putpixel(lt(x), y, 255);
-            printf("(%d, %d)\n", lt(x), y);
-            delay(10);
-        }
-    }
-    else
-    {
-        while (y >= yb)
-        {
-            y--;
-            x = x - 1 / m;
-            putpixel(lt(x), y, 255);
-            printf("(%d, %d)\n", lt(x), y);
-            delay(10);
-        }
+        putpixel(round(X), round(Y), WHITE);
+        X += Xincrement;
+        Y += Yincrement;
     }
 }
 
 int main()
 {
-    initwindow(800, 400);
-    // setcolor(2);
-    // line(100,100,400,400);
+    int gd = DETECT, gm;
+    initwindow(500, 500);
 
-    dda1(20, 30, 120, 80);
-    dda1(120, 80, 20, 30);
-    dda1(20, 80, 120, 30);
-    dda1(120, 30, 20, 80);
-
-    dda2(30, 20, 80, 120);
-    dda2(80, 120, 30, 20);
-    dda2(80, 20, 30, 120);
-    dda2(130, 70, 80, 170);
-    dda2(30, 120, 80, 20);
+    int X1 = 120, Y1 = 80, X2 = 20, Y2 = 30;
+    drawLineDDA(X1, Y1, X2, Y2);
 
     getch();
+    closegraph();
+    return 0;
 }
