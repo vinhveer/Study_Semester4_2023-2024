@@ -1,0 +1,1 @@
+        line(pt[i].x, pt[i].y, pt[i + 1].x, pt[i + 1].y);
