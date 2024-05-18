@@ -3,6 +3,7 @@ D:\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh6\bin\Debug\net8.0
 D:\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh6\bin\Debug\net8.0-windows\BaiThucHanh6.runtimeconfig.json
 D:\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh6\bin\Debug\net8.0-windows\BaiThucHanh6.dll
 D:\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh6\bin\Debug\net8.0-windows\BaiThucHanh6.pdb
+D:\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh6\obj\Debug\net8.0-windows\BaiThucHanh6.Login.resources
 D:\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh6\obj\Debug\net8.0-windows\BaiThucHanh6.csproj.GenerateResource.cache
 D:\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh6\obj\Debug\net8.0-windows\BaiThucHanh6.GeneratedMSBuildEditorConfig.editorconfig
 D:\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh6\obj\Debug\net8.0-windows\BaiThucHanh6.AssemblyInfoInputs.cache
@@ -14,6 +15,4 @@ D:\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh6\obj\Debug\net8.0
 D:\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh6\obj\Debug\net8.0-windows\BaiThucHanh6.pdb
 D:\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh6\obj\Debug\net8.0-windows\BaiThucHanh6.genruntimeconfig.cache
 D:\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh6\obj\Debug\net8.0-windows\ref\BaiThucHanh6.dll
-D:\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh6\obj\Debug\net8.0-windows\BaiThucHanh6.Login.resources
 D:\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh6\obj\Debug\net8.0-windows\BaiThucHanh6.StudentList.resources
-D:\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh6\obj\Debug\net8.0-windows\BaiThucHanh6.SecurityPanel.resources

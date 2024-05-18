@@ -7,18 +7,18 @@ namespace BaiThucHanh6
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnSubmit_Click(object sender, EventArgs e)
         {
-            string userName = "admin";
-            string password = "admin";
+            string username = txtUsername.Text;
+            string password = txtPassword.Text;
 
-            if (textBox1.Text == userName && textBox2.Text == password)
+            if (username == "admin" && password == "admin")
             {
-                MessageBox.Show("Đăng nhập thành công");
+                MessageBox.Show("Đăng nhập thành công", "Thông báo");
             }
             else
             {
-                MessageBox.Show("Đăng nhập thất bại");
+                MessageBox.Show("Đăng nhập thất bại", "Thông báo");
             }
         }
     }

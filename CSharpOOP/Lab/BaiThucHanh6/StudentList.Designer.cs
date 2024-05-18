@@ -28,152 +28,157 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            textBox1 = new TextBox();
-            label2 = new Label();
-            label3 = new Label();
-            textBox2 = new TextBox();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
+            lblTitle = new Label();
+            lblStudentId = new Label();
+            lblStudentName = new Label();
+            txtStudentId = new TextBox();
+            txtStudentName = new TextBox();
             pictureBox1 = new PictureBox();
-            listView1 = new ListView();
+            lblStudentImg = new Label();
+            btnAdd = new Button();
+            btnEdit = new Button();
+            btnDelete = new Button();
+            dataGridView1 = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
-            // label1
+            // lblTitle
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI Semibold", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(45, 36);
-            label1.Name = "label1";
-            label1.Size = new Size(288, 41);
-            label1.TabIndex = 0;
-            label1.Text = "Danh sách sinh viên";
+            lblTitle.AutoSize = true;
+            lblTitle.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTitle.Location = new Point(52, 33);
+            lblTitle.Name = "lblTitle";
+            lblTitle.Size = new Size(344, 48);
+            lblTitle.TabIndex = 0;
+            lblTitle.Text = "Danh sách sinh viên";
             // 
-            // textBox1
+            // lblStudentId
             // 
-            textBox1.Location = new Point(45, 121);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(412, 31);
-            textBox1.TabIndex = 1;
+            lblStudentId.AutoSize = true;
+            lblStudentId.Location = new Point(52, 109);
+            lblStudentId.Name = "lblStudentId";
+            lblStudentId.Size = new Size(135, 25);
+            lblStudentId.TabIndex = 1;
+            lblStudentId.Text = "Mã số sinh viên";
             // 
-            // label2
+            // lblStudentName
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(45, 93);
-            label2.Name = "label2";
-            label2.Size = new Size(135, 25);
-            label2.TabIndex = 2;
-            label2.Text = "Mã số sinh viên";
+            lblStudentName.AutoSize = true;
+            lblStudentName.Location = new Point(52, 184);
+            lblStudentName.Name = "lblStudentName";
+            lblStudentName.Size = new Size(112, 25);
+            lblStudentName.TabIndex = 2;
+            lblStudentName.Text = "Tên sinh viên";
             // 
-            // label3
+            // txtStudentId
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(45, 177);
-            label3.Name = "label3";
-            label3.Size = new Size(89, 25);
-            label3.TabIndex = 4;
-            label3.Text = "Họ và tên";
+            txtStudentId.Location = new Point(52, 137);
+            txtStudentId.Name = "txtStudentId";
+            txtStudentId.Size = new Size(370, 31);
+            txtStudentId.TabIndex = 3;
             // 
-            // textBox2
+            // txtStudentName
             // 
-            textBox2.Location = new Point(45, 205);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(412, 31);
-            textBox2.TabIndex = 3;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(45, 263);
-            button1.Name = "button1";
-            button1.Size = new Size(110, 41);
-            button1.TabIndex = 5;
-            button1.Text = "Thêm";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(161, 263);
-            button2.Name = "button2";
-            button2.Size = new Size(110, 41);
-            button2.TabIndex = 6;
-            button2.Text = "Sửa";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
-            // 
-            // button3
-            // 
-            button3.Location = new Point(277, 263);
-            button3.Name = "button3";
-            button3.Size = new Size(110, 41);
-            button3.TabIndex = 7;
-            button3.Text = "Xóa";
-            button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            button4.Location = new Point(577, 41);
-            button4.Name = "button4";
-            button4.Size = new Size(175, 41);
-            button4.TabIndex = 8;
-            button4.Text = "Thoát chương trình";
-            button4.UseVisualStyleBackColor = true;
+            txtStudentName.Location = new Point(52, 212);
+            txtStudentName.Name = "txtStudentName";
+            txtStudentName.Size = new Size(370, 31);
+            txtStudentName.TabIndex = 4;
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(577, 93);
+            pictureBox1.Location = new Point(456, 137);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(175, 143);
-            pictureBox1.TabIndex = 9;
+            pictureBox1.Size = new Size(185, 167);
+            pictureBox1.TabIndex = 5;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
-            // listView1
+            // lblStudentImg
             // 
-            listView1.Location = new Point(45, 328);
-            listView1.Name = "listView1";
-            listView1.Size = new Size(707, 123);
-            listView1.TabIndex = 10;
-            listView1.UseCompatibleStateImageBehavior = false;
+            lblStudentImg.AutoSize = true;
+            lblStudentImg.Location = new Point(456, 109);
+            lblStudentImg.Name = "lblStudentImg";
+            lblStudentImg.Size = new Size(118, 25);
+            lblStudentImg.TabIndex = 6;
+            lblStudentImg.Text = "Ảnh sinh viên";
+            // 
+            // btnAdd
+            // 
+            btnAdd.Location = new Point(52, 264);
+            btnAdd.Name = "btnAdd";
+            btnAdd.Size = new Size(101, 40);
+            btnAdd.TabIndex = 7;
+            btnAdd.Text = "Thêm";
+            btnAdd.UseVisualStyleBackColor = true;
+            btnAdd.Click += btnAdd_Click;
+            // 
+            // btnEdit
+            // 
+            btnEdit.Location = new Point(159, 264);
+            btnEdit.Name = "btnEdit";
+            btnEdit.Size = new Size(101, 40);
+            btnEdit.TabIndex = 8;
+            btnEdit.Text = "Sửa";
+            btnEdit.UseVisualStyleBackColor = true;
+            btnEdit.Click += btnEdit_Click;
+            // 
+            // btnDelete
+            // 
+            btnDelete.Location = new Point(266, 264);
+            btnDelete.Name = "btnDelete";
+            btnDelete.Size = new Size(101, 40);
+            btnDelete.TabIndex = 9;
+            btnDelete.Text = "Xóa";
+            btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Click += btnDelete_Click;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(52, 347);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 62;
+            dataGridView1.Size = new Size(589, 225);
+            dataGridView1.TabIndex = 10;
+            dataGridView1.CellClick += dataGridView1_CellClick;
             // 
             // StudentList
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 498);
-            Controls.Add(listView1);
+            ClientSize = new Size(708, 610);
+            Controls.Add(dataGridView1);
+            Controls.Add(btnDelete);
+            Controls.Add(btnEdit);
+            Controls.Add(btnAdd);
+            Controls.Add(lblStudentImg);
             Controls.Add(pictureBox1);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(label3);
-            Controls.Add(textBox2);
-            Controls.Add(label2);
-            Controls.Add(textBox1);
-            Controls.Add(label1);
+            Controls.Add(txtStudentName);
+            Controls.Add(txtStudentId);
+            Controls.Add(lblStudentName);
+            Controls.Add(lblStudentId);
+            Controls.Add(lblTitle);
             Name = "StudentList";
-            Text = "StudentList";
+            Text = "Danh sách sinh viên";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
-        private TextBox textBox1;
-        private Label label2;
-        private Label label3;
-        private TextBox textBox2;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
+        private Label lblTitle;
+        private Label lblStudentId;
+        private Label lblStudentName;
+        private TextBox txtStudentId;
+        private TextBox txtStudentName;
         private PictureBox pictureBox1;
-        private ListView listView1;
+        private Label lblStudentImg;
+        private Button btnAdd;
+        private Button btnEdit;
+        private Button btnDelete;
+        private DataGridView dataGridView1;
     }
 }

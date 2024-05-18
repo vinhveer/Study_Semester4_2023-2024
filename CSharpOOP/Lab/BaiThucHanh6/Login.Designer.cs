@@ -28,94 +28,90 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            label2 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            label3 = new Label();
-            button1 = new Button();
+            lblTitle = new Label();
+            txtUsername = new TextBox();
+            txtPassword = new TextBox();
+            lblUsername = new Label();
+            lblPassword = new Label();
+            btnSubmit = new Button();
             SuspendLayout();
             // 
-            // label1
+            // lblTitle
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI Semibold", 16F, FontStyle.Bold);
-            label1.Location = new Point(59, 33);
-            label1.Name = "label1";
-            label1.Size = new Size(323, 45);
-            label1.TabIndex = 0;
-            label1.Text = "Đăng nhập hệ thống";
-            label1.TextAlign = ContentAlignment.MiddleLeft;
+            lblTitle.AutoSize = true;
+            lblTitle.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTitle.Location = new Point(41, 25);
+            lblTitle.Name = "lblTitle";
+            lblTitle.Size = new Size(360, 48);
+            lblTitle.TabIndex = 0;
+            lblTitle.Text = "Đăng nhập hệ thống";
             // 
-            // label2
+            // txtUsername
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(59, 102);
-            label2.Name = "label2";
-            label2.Size = new Size(140, 28);
-            label2.TabIndex = 1;
-            label2.Text = "Tên đăng nhập";
+            txtUsername.Location = new Point(41, 133);
+            txtUsername.Name = "txtUsername";
+            txtUsername.Size = new Size(548, 31);
+            txtUsername.TabIndex = 1;
             // 
-            // textBox1
+            // txtPassword
             // 
-            textBox1.Location = new Point(59, 133);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(550, 31);
-            textBox1.TabIndex = 2;
+            txtPassword.Location = new Point(41, 209);
+            txtPassword.Name = "txtPassword";
+            txtPassword.Size = new Size(548, 31);
+            txtPassword.TabIndex = 2;
             // 
-            // textBox2
+            // lblUsername
             // 
-            textBox2.Location = new Point(59, 205);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(550, 31);
-            textBox2.TabIndex = 4;
+            lblUsername.AutoSize = true;
+            lblUsername.Location = new Point(41, 105);
+            lblUsername.Name = "lblUsername";
+            lblUsername.Size = new Size(129, 25);
+            lblUsername.TabIndex = 3;
+            lblUsername.Text = "Tên đăng nhập";
             // 
-            // label3
+            // lblPassword
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(59, 174);
-            label3.Name = "label3";
-            label3.Size = new Size(94, 28);
-            label3.TabIndex = 3;
-            label3.Text = "Mật khẩu";
+            lblPassword.AutoSize = true;
+            lblPassword.Location = new Point(41, 181);
+            lblPassword.Name = "lblPassword";
+            lblPassword.Size = new Size(86, 25);
+            lblPassword.TabIndex = 4;
+            lblPassword.Text = "Mật khẩu";
             // 
-            // button1
+            // btnSubmit
             // 
-            button1.Font = new Font("Segoe UI", 10F);
-            button1.Location = new Point(59, 259);
-            button1.Name = "button1";
-            button1.Size = new Size(156, 47);
-            button1.TabIndex = 5;
-            button1.Text = "Đăng nhập";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btnSubmit.Location = new Point(41, 269);
+            btnSubmit.Name = "btnSubmit";
+            btnSubmit.Size = new Size(129, 45);
+            btnSubmit.TabIndex = 5;
+            btnSubmit.Text = "Đăng nhập";
+            btnSubmit.UseVisualStyleBackColor = true;
+            btnSubmit.Click += btnSubmit_Click;
             // 
-            // Form1
+            // Login
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(667, 450);
-            Controls.Add(button1);
-            Controls.Add(textBox2);
-            Controls.Add(label3);
-            Controls.Add(textBox1);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Name = "Form1";
-            Text = "Form1";
+            ClientSize = new Size(800, 450);
+            Controls.Add(btnSubmit);
+            Controls.Add(lblPassword);
+            Controls.Add(lblUsername);
+            Controls.Add(txtPassword);
+            Controls.Add(txtUsername);
+            Controls.Add(lblTitle);
+            Name = "Login";
+            Text = "Đăng nhập";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
-        private Label label2;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Label label3;
-        private Button button1;
+        private Label lblTitle;
+        private TextBox txtUsername;
+        private TextBox txtPassword;
+        private Label lblUsername;
+        private Label lblPassword;
+        private Button btnSubmit;
     }
 }
