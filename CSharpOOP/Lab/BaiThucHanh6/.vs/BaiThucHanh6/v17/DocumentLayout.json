@@ -7,23 +7,23 @@
       "RelativeMoniker": "D:0:0:{60DC2CA3-04F4-4EF9-BD1A-1DE3ABFD82A9}|BaiThucHanh6.csproj|solutionrelative:studentlist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60DC2CA3-04F4-4EF9-BD1A-1DE3ABFD82A9}|BaiThucHanh6.csproj|d:\\desktop\\study_semester4_2023-2024\\csharpoop\\lab\\baithuchanh6\\studentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{60DC2CA3-04F4-4EF9-BD1A-1DE3ABFD82A9}|BaiThucHanh6.csproj|D:\\Desktop\\Study_Semester4_2023-2024\\CSharpOOP\\Lab\\BaiThucHanh6\\studentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{60DC2CA3-04F4-4EF9-BD1A-1DE3ABFD82A9}|BaiThucHanh6.csproj|solutionrelative:studentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60DC2CA3-04F4-4EF9-BD1A-1DE3ABFD82A9}|BaiThucHanh6.csproj|d:\\desktop\\study_semester4_2023-2024\\csharpoop\\lab\\baithuchanh6\\assets\\student.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{60DC2CA3-04F4-4EF9-BD1A-1DE3ABFD82A9}|BaiThucHanh6.csproj|D:\\Desktop\\Study_Semester4_2023-2024\\CSharpOOP\\Lab\\BaiThucHanh6\\assets\\student.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{60DC2CA3-04F4-4EF9-BD1A-1DE3ABFD82A9}|BaiThucHanh6.csproj|solutionrelative:assets\\student.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60DC2CA3-04F4-4EF9-BD1A-1DE3ABFD82A9}|BaiThucHanh6.csproj|d:\\desktop\\study_semester4_2023-2024\\csharpoop\\lab\\baithuchanh6\\studentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{60DC2CA3-04F4-4EF9-BD1A-1DE3ABFD82A9}|BaiThucHanh6.csproj|D:\\Desktop\\Study_Semester4_2023-2024\\CSharpOOP\\Lab\\BaiThucHanh6\\studentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60DC2CA3-04F4-4EF9-BD1A-1DE3ABFD82A9}|BaiThucHanh6.csproj|solutionrelative:studentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60DC2CA3-04F4-4EF9-BD1A-1DE3ABFD82A9}|BaiThucHanh6.csproj|d:\\desktop\\study_semester4_2023-2024\\csharpoop\\lab\\baithuchanh6\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{60DC2CA3-04F4-4EF9-BD1A-1DE3ABFD82A9}|BaiThucHanh6.csproj|D:\\Desktop\\Study_Semester4_2023-2024\\CSharpOOP\\Lab\\BaiThucHanh6\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60DC2CA3-04F4-4EF9-BD1A-1DE3ABFD82A9}|BaiThucHanh6.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60DC2CA3-04F4-4EF9-BD1A-1DE3ABFD82A9}|BaiThucHanh6.csproj|d:\\desktop\\study_semester4_2023-2024\\csharpoop\\lab\\baithuchanh6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{60DC2CA3-04F4-4EF9-BD1A-1DE3ABFD82A9}|BaiThucHanh6.csproj|D:\\Desktop\\Study_Semester4_2023-2024\\CSharpOOP\\Lab\\BaiThucHanh6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60DC2CA3-04F4-4EF9-BD1A-1DE3ABFD82A9}|BaiThucHanh6.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -46,8 +46,7 @@
               "RelativeToolTip": "assets\\student.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-05-18T10:09:56.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T10:09:56.527Z"
             },
             {
               "$type": "Document",
@@ -58,8 +57,7 @@
               "ToolTip": "D:\\Desktop\\Study_Semester4_2023-2024\\CSharpOOP\\Lab\\BaiThucHanh6\\StudentList.cs [Design]",
               "RelativeToolTip": "StudentList.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T10:03:40.427Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-18T10:03:40.427Z"
             },
             {
               "$type": "Document",
@@ -71,8 +69,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T09:59:09.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T09:59:09.752Z"
             },
             {
               "$type": "Document",
@@ -97,8 +94,7 @@
               "RelativeToolTip": "Student.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T09:47:09.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T09:47:09.825Z"
             },
             {
               "$type": "Document",
@@ -110,8 +106,7 @@
               "RelativeToolTip": "StudentList.cs",
               "ViewState": "AQIAAIYAAAAAAAAAAAAUwJgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T09:38:43.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T09:38:43.98Z"
             }
           ]
         }
