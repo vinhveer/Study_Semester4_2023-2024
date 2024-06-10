@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\BaiTapNhom\\",
+  "WorkspaceRootPath": "E:\\Study_Semester4_2023-2024\\CSharpOOP\\Draft\\BaiTapNhom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6316679A-2D21-4FA4-B1C5-73226FB349BE}|BaiTapNhom.csproj|d:\\desktop\\study\\study_semester4_2023-2024\\c#_consoleproject\\thuchanh\\baitapnhom\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6316679A-2D21-4FA4-B1C5-73226FB349BE}|BaiTapNhom.csproj|e:\\study_semester4_2023-2024\\csharpoop\\draft\\baitapnhom\\dongia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6316679A-2D21-4FA4-B1C5-73226FB349BE}|BaiTapNhom.csproj|solutionrelative:dongia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6316679A-2D21-4FA4-B1C5-73226FB349BE}|BaiTapNhom.csproj|e:\\study_semester4_2023-2024\\csharpoop\\draft\\baitapnhom\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6316679A-2D21-4FA4-B1C5-73226FB349BE}|BaiTapNhom.csproj|solutionrelative:hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6316679A-2D21-4FA4-B1C5-73226FB349BE}|BaiTapNhom.csproj|D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\BaiTapNhom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6316679A-2D21-4FA4-B1C5-73226FB349BE}|BaiTapNhom.csproj|E:\\Study_Semester4_2023-2024\\CSharpOOP\\Draft\\BaiTapNhom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6316679A-2D21-4FA4-B1C5-73226FB349BE}|BaiTapNhom.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,10 +27,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DonGia.cs",
+              "DocumentMoniker": "E:\\Study_Semester4_2023-2024\\CSharpOOP\\Draft\\BaiTapNhom\\DonGia.cs",
+              "RelativeDocumentMoniker": "DonGia.cs",
+              "ToolTip": "E:\\Study_Semester4_2023-2024\\CSharpOOP\\Draft\\BaiTapNhom\\DonGia.cs",
+              "RelativeToolTip": "DonGia.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T19:32:15.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "HangHoa.cs",
-              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\BaiTapNhom\\HangHoa.cs",
+              "DocumentMoniker": "E:\\Study_Semester4_2023-2024\\CSharpOOP\\Draft\\BaiTapNhom\\HangHoa.cs",
               "RelativeDocumentMoniker": "HangHoa.cs",
-              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\BaiTapNhom\\HangHoa.cs",
+              "ToolTip": "E:\\Study_Semester4_2023-2024\\CSharpOOP\\Draft\\BaiTapNhom\\HangHoa.cs",
               "RelativeToolTip": "HangHoa.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -35,11 +52,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\BaiTapNhom\\Program.cs",
+              "DocumentMoniker": "E:\\Study_Semester4_2023-2024\\CSharpOOP\\Draft\\BaiTapNhom\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Desktop\\Study\\Study_Semester4_2023-2024\\C#_ConsoleProject\\ThucHanh\\BaiTapNhom\\Program.cs",
+              "ToolTip": "E:\\Study_Semester4_2023-2024\\CSharpOOP\\Draft\\BaiTapNhom\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

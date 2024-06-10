@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Study_Semester4_2023-2024\\CSharpOOP\\Draft\\DeMauCuoiKy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37765E15-8CE5-42FD-99DB-B11DDC18B66F}|DeMauCuoiKy.csproj|E:\\Study_Semester4_2023-2024\\CSharpOOP\\Draft\\DeMauCuoiKy\\ithue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37765E15-8CE5-42FD-99DB-B11DDC18B66F}|DeMauCuoiKy.csproj|solutionrelative:ithue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37765E15-8CE5-42FD-99DB-B11DDC18B66F}|DeMauCuoiKy.csproj|E:\\Study_Semester4_2023-2024\\CSharpOOP\\Draft\\DeMauCuoiKy\\mathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37765E15-8CE5-42FD-99DB-B11DDC18B66F}|DeMauCuoiKy.csproj|solutionrelative:mathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37765E15-8CE5-42FD-99DB-B11DDC18B66F}|DeMauCuoiKy.csproj|e:\\study_semester4_2023-2024\\csharpoop\\draft\\demaucuoiky\\mathangnhapkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37765E15-8CE5-42FD-99DB-B11DDC18B66F}|DeMauCuoiKy.csproj|solutionrelative:mathangnhapkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37765E15-8CE5-42FD-99DB-B11DDC18B66F}|DeMauCuoiKy.csproj|E:\\Study_Semester4_2023-2024\\CSharpOOP\\Draft\\DeMauCuoiKy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37765E15-8CE5-42FD-99DB-B11DDC18B66F}|DeMauCuoiKy.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MatHangNhapKhau.cs",
+              "DocumentMoniker": "E:\\Study_Semester4_2023-2024\\CSharpOOP\\Draft\\DeMauCuoiKy\\MatHangNhapKhau.cs",
+              "RelativeDocumentMoniker": "MatHangNhapKhau.cs",
+              "ToolTip": "E:\\Study_Semester4_2023-2024\\CSharpOOP\\Draft\\DeMauCuoiKy\\MatHangNhapKhau.cs",
+              "RelativeToolTip": "MatHangNhapKhau.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T19:38:15.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IThue.cs",
+              "DocumentMoniker": "E:\\Study_Semester4_2023-2024\\CSharpOOP\\Draft\\DeMauCuoiKy\\IThue.cs",
+              "RelativeDocumentMoniker": "IThue.cs",
+              "ToolTip": "E:\\Study_Semester4_2023-2024\\CSharpOOP\\Draft\\DeMauCuoiKy\\IThue.cs",
+              "RelativeToolTip": "IThue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T19:37:59.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MatHang.cs",
+              "DocumentMoniker": "E:\\Study_Semester4_2023-2024\\CSharpOOP\\Draft\\DeMauCuoiKy\\MatHang.cs",
+              "RelativeDocumentMoniker": "MatHang.cs",
+              "ToolTip": "E:\\Study_Semester4_2023-2024\\CSharpOOP\\Draft\\DeMauCuoiKy\\MatHang.cs",
+              "RelativeToolTip": "MatHang.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T19:37:40.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Study_Semester4_2023-2024\\CSharpOOP\\Draft\\DeMauCuoiKy\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Study_Semester4_2023-2024\\CSharpOOP\\Draft\\DeMauCuoiKy\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T19:32:51.365Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

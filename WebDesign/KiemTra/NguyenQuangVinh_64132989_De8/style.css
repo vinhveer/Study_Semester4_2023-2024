@@ -1,0 +1,62 @@
+.logo-img {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+body {
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px;
+}
+
+.navbar-collapse {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #000;
+}
+
+.nav-item {
+    font-weight: 700;
+}
+
+.dropdown {
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.heading {
+    font-weight: bold;
+    background-color: #f8cbad;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: #c00000;
+}
+
+.footer {
+    font-weight: 600;
+    background-color: #c55a11;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+
+.btn.btn-outline-primary {
+    background-color: #c00000;
+    border: 3px solid #00b050;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.btn.btn-primary {
+    background-color: #c00000;
+    border: 3px solid #c00000;
+    border-radius: 20px;
+    color: #ffff00;
+    font-weight: 500;
+}
+
+.btn.rounded-end-pill {
+    border: #ffffff;
+    background-color: #ffffff;
+}
