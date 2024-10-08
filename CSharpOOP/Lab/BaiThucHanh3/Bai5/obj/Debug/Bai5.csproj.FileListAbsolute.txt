@@ -5,3 +5,10 @@ D:\Desktop\Study_Semester4_2023-2024\C#_ConsoleProject\BaiThucHanh\BaiThucHanh3\
 D:\Desktop\Study_Semester4_2023-2024\C#_ConsoleProject\BaiThucHanh\BaiThucHanh3\Bai5\obj\Debug\Bai5.csproj.CoreCompileInputs.cache
 D:\Desktop\Study_Semester4_2023-2024\C#_ConsoleProject\BaiThucHanh\BaiThucHanh3\Bai5\obj\Debug\Bai5.exe
 D:\Desktop\Study_Semester4_2023-2024\C#_ConsoleProject\BaiThucHanh\BaiThucHanh3\Bai5\obj\Debug\Bai5.pdb
+C:\Users\vinhnq\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh3\Bai5\bin\Debug\Bai5.exe.config
+C:\Users\vinhnq\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh3\Bai5\bin\Debug\Bai5.exe
+C:\Users\vinhnq\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh3\Bai5\bin\Debug\Bai5.pdb
+C:\Users\vinhnq\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh3\Bai5\obj\Debug\Bai5.csproj.AssemblyReference.cache
+C:\Users\vinhnq\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh3\Bai5\obj\Debug\Bai5.csproj.CoreCompileInputs.cache
+C:\Users\vinhnq\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh3\Bai5\obj\Debug\Bai5.exe
+C:\Users\vinhnq\Desktop\Study_Semester4_2023-2024\CSharpOOP\Lab\BaiThucHanh3\Bai5\obj\Debug\Bai5.pdb
